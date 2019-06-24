@@ -1,0 +1,212 @@
+[QuickStartApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[QuickStartApp | INFO] Creating directory '/Users/kathyle/github/PyRosetta.notebooks/notebooks'...
+[QuickStartApp | INFO] Copying example from the user guide...
+[QuickStartApp | INFO] Generating example config file...
+[QuickStartApp | INFO] Done! The course files are located in '/Users/kathyle/github/PyRosetta.notebooks/notebooks'.
+    
+    To get started, you can edit the source notebooks located in:
+    
+        /Users/kathyle/github/PyRosetta.notebooks/notebooks/source/ps1
+    
+    Once you have edited them to your satisfaction, you can create
+    the student version by running `nbgrader assign ps1` from the
+    '/Users/kathyle/github/PyRosetta.notebooks/notebooks' directory.
+    
+    For further details, please see the full nbgrader documentation at:
+    
+        https://nbgrader.readthedocs.io/
+    
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/kathyle/github/PyRosetta.notebooks
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=60ed5ba28ecd52e60677bc40e9bcb650730357bec85c6302
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=60ed5ba28ecd52e60677bc40e9bcb650730357bec85c6302
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Kernel started: 9f194bfb-64a6-44bc-b270-e61c3cf6c34a
+[NotebookApp | WARNING] 404 GET /notebooks/Workshop3/PyMOL-send_energy.gif (::1): No such file or directory: Workshop3/PyMOL-send_energy.gif
+[NotebookApp | WARNING] 404 GET /notebooks/Workshop3/PyMOL-send_energy.gif (::1) 20.40ms referer=http://localhost:8888/notebooks/Workshop3_Score_Function_Basics_answers.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 9f194bfb-64a6-44bc-b270-e61c3cf6c34a
+[NotebookApp | INFO] Starting buffering for 9f194bfb-64a6-44bc-b270-e61c3cf6c34a:58220b6ddfea4490bc91f460ba686cff
+[NotebookApp | WARNING] Notebook source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: b751ea3b-b4c9-4f4f-b8ac-b447506c9c3d
+[NotebookApp | WARNING] 404 GET /notebooks/source/02.01-Pose-Basics/Workshop2/dihedral-final.png (::1): No such file or directory: source/02.01-Pose-Basics/Workshop2/dihedral-final.png
+[NotebookApp | WARNING] 404 GET /notebooks/source/02.01-Pose-Basics/Workshop2/dihedral-final.png (::1) 4.95ms referer=http://localhost:8888/notebooks/source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/source/02.01-Pose-Basics/Workshop2/PyMOL-tutorial.gif (::1): No such file or directory: source/02.01-Pose-Basics/Workshop2/PyMOL-tutorial.gif
+[NotebookApp | WARNING] 404 GET /notebooks/source/02.01-Pose-Basics/Workshop2/PyMOL-tutorial.gif (::1) 3.93ms referer=http://localhost:8888/notebooks/source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b751ea3b-b4c9-4f4f-b8ac-b447506c9c3d
+[NotebookApp | WARNING] 404 GET /notebooks/source/02.01-Pose-Basics/~/Media/Workshop2/dihedral-final.png (::1): No such file or directory: source/02.01-Pose-Basics/~/Media/Workshop2/dihedral-final.png
+[NotebookApp | WARNING] 404 GET /notebooks/source/02.01-Pose-Basics/~/Media/Workshop2/dihedral-final.png (::1) 2.12ms referer=http://localhost:8888/notebooks/source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/source/02.01-Pose-Basics/~/Media/Workshop2/dihedral-final.png (::1): No such file or directory: source/02.01-Pose-Basics/~/Media/Workshop2/dihedral-final.png
+[NotebookApp | WARNING] 404 GET /notebooks/source/02.01-Pose-Basics/~/Media/Workshop2/dihedral-final.png (::1) 2.00ms referer=http://localhost:8888/notebooks/source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | INFO] Saving file at /source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | WARNING] Notebook source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | WARNING] Notebook source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb is not trusted
+[NotebookApp | INFO] Starting buffering for b751ea3b-b4c9-4f4f-b8ac-b447506c9c3d:e1c3f2cac555468d8c708a00a7229cd9
+[NotebookApp | WARNING] Notebook source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb is not trusted
+[NotebookApp | WARNING] 404 GET /notebooks/source/02.01-Pose-Basics/~/Media/Workshop2/dihedral-final.png (::1): No such file or directory: source/02.01-Pose-Basics/~/Media/Workshop2/dihedral-final.png
+[NotebookApp | WARNING] 404 GET /notebooks/source/02.01-Pose-Basics/~/Media/Workshop2/dihedral-final.png (::1) 3.20ms referer=http://localhost:8888/notebooks/source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/source/02.01-Pose-Basics/Workshop2/PyMOL-tutorial.gif (::1): No such file or directory: source/02.01-Pose-Basics/Workshop2/PyMOL-tutorial.gif
+[NotebookApp | WARNING] 404 GET /notebooks/source/02.01-Pose-Basics/Workshop2/PyMOL-tutorial.gif (::1) 3.99ms referer=http://localhost:8888/notebooks/source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel b751ea3b-b4c9-4f4f-b8ac-b447506c9c3d
+[NotebookApp | INFO] 302 GET /notebooks/Media/Workshop2/dihedral-final.png (::1) 2.57ms
+[NotebookApp | WARNING] 404 GET /notebooks/Workshop2/PyMOL-tutorial.gif (::1): No such file or directory: Workshop2/PyMOL-tutorial.gif
+[NotebookApp | WARNING] 404 GET /notebooks/Workshop2/PyMOL-tutorial.gif (::1) 2.39ms referer=http://localhost:8888/notebooks/source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | WARNING] 404 GET /Workshop2/PyMOL-tutorial.gif (::1) 2.61ms referer=http://localhost:8888/notebooks/source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | WARNING] 404 GET /Workshop2/PyMOL-tutorial.gif (::1) 1.56ms referer=http://localhost:8888/notebooks/source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/source/Workshop2/PyMOL-tutorial.gif (::1): No such file or directory: source/Workshop2/PyMOL-tutorial.gif
+[NotebookApp | WARNING] 404 GET /notebooks/source/Workshop2/PyMOL-tutorial.gif (::1) 2.66ms referer=http://localhost:8888/notebooks/source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | WARNING] 404 GET /notebooks/Workshop2/PyMOL-tutorial.gif (::1): No such file or directory: Workshop2/PyMOL-tutorial.gif
+[NotebookApp | WARNING] 404 GET /notebooks/Workshop2/PyMOL-tutorial.gif (::1) 1.85ms referer=http://localhost:8888/notebooks/source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | INFO] Saving file at /source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | WARNING] Notebook source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb is not trusted
+[NotebookApp | INFO] 302 GET /notebooks/Media/Workshop2/PyMOL-tutorial.gif (::1) 1.16ms
+[NotebookApp | INFO] Saving file at /source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | WARNING] Notebook source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb is not trusted
+[NotebookApp | INFO] Saving file at /source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | WARNING] Notebook source/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb is not trusted
+[NotebookApp | INFO] Starting buffering for b751ea3b-b4c9-4f4f-b8ac-b447506c9c3d:8740365fbc7f40f68f470b27a97461ee
+[NotebookApp | WARNING] 404 GET /notebooks/Workshop3/PyMOL-send_energy.gif (::1): No such file or directory: Workshop3/PyMOL-send_energy.gif
+[NotebookApp | WARNING] 404 GET /notebooks/Workshop3/PyMOL-send_energy.gif (::1) 3.76ms referer=http://localhost:8888/notebooks/Workshop3_Score_Function_Basics_answers.ipynb
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 9f194bfb-64a6-44bc-b270-e61c3cf6c34a
+[NotebookApp | INFO] Starting buffering for 9f194bfb-64a6-44bc-b270-e61c3cf6c34a:d17e982815664c998ff17d709e9386ba
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Updating/creating assignment '03.01-Score-Function-Basics': {}
+[NotebookApp | INFO] Converting notebook /Users/kathyle/github/PyRosetta.notebooks/source/./03.01-Score-Function-Basics/Workshop3_Score_Function_Basics_answers.ipynb
+[NotebookApp | INFO] Writing 26778 bytes to /Users/kathyle/github/PyRosetta.notebooks/release/./03.01-Score-Function-Basics/Workshop3_Score_Function_Basics_answers.ipynb
+[NotebookApp | INFO] Setting destination file permissions to 644
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Updating/creating assignment '02.01-Pose-Basics': {}
+[NotebookApp | INFO] Converting notebook /Users/kathyle/github/PyRosetta.notebooks/source/./02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | INFO] Writing 34236 bytes to /Users/kathyle/github/PyRosetta.notebooks/release/./02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb
+[NotebookApp | INFO] Setting destination file permissions to 644
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] Notebook release/02.01-Pose-Basics/Workshop2_Pose_Basics_answers.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 50d0efc9-0202-4a83-b43b-d84b05a00131
+[NotebookApp | INFO] 302 GET /notebooks/Media/Workshop2/dihedral-final.png (::1) 2.87ms
+[NotebookApp | INFO] 302 GET /notebooks/Media/Workshop2/PyMOL-tutorial.gif (::1) 1.82ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 50d0efc9-0202-4a83-b43b-d84b05a00131
+[NotebookApp | INFO] Starting buffering for 50d0efc9-0202-4a83-b43b-d84b05a00131:efdbb0e65dc644c69db1ec5b945a60a7
+[NotebookApp | INFO] Kernel started: 286c7280-a225-4e91-a961-bcd5bc0ccb7d
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 286c7280-a225-4e91-a961-bcd5bc0ccb7d
+[NotebookApp | INFO] Starting buffering for 286c7280-a225-4e91-a961-bcd5bc0ccb7d:5042908d08414a68b2a590c7cb47855d
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /Users/kathyle/github/PyRosetta.notebooks
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=414b197cba1bdf231bdc57c3d2ffc0c0e1179f46b3f7a8f6
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=414b197cba1bdf231bdc57c3d2ffc0c0e1179f46b3f7a8f6
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from ::1
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] Removing existing assignment: /Users/kathyle/github/PyRosetta.notebooks/release/02.01-Pose-Basics
+[NotebookApp | INFO] Copying /Users/kathyle/github/PyRosetta.notebooks/source/./02.01-Pose-Basics/.DS_Store -> /Users/kathyle/github/PyRosetta.notebooks/release/./02.01-Pose-Basics/.DS_Store
+[NotebookApp | INFO] Copying /Users/kathyle/github/PyRosetta.notebooks/source/./02.01-Pose-Basics/dihedral-final.png -> /Users/kathyle/github/PyRosetta.notebooks/release/./02.01-Pose-Basics/dihedral-final.png
+[NotebookApp | INFO] Updating/creating assignment '02.01-Pose-Basics': {}
+[NotebookApp | WARNING] Removing notebook 'Workshop2_Pose_Basics_answers' from the gradebook
+[NotebookApp | INFO] Converting notebook /Users/kathyle/github/PyRosetta.notebooks/source/./02.01-Pose-Basics/02.01-Pose-Basics.ipynb
+[NotebookApp | INFO] Writing 21871 bytes to /Users/kathyle/github/PyRosetta.notebooks/release/./02.01-Pose-Basics/02.01-Pose-Basics.ipynb
+[NotebookApp | INFO] Setting destination file permissions to 644
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Copying /Users/kathyle/github/PyRosetta.notebooks/source/./02.02-Protein-Geometry-and-Visualization/PyMOL-tutorial.gif -> /Users/kathyle/github/PyRosetta.notebooks/release/./02.02-Protein-Geometry-and-Visualization/PyMOL-tutorial.gif
+[NotebookApp | INFO] Copying /Users/kathyle/github/PyRosetta.notebooks/source/./02.02-Protein-Geometry-and-Visualization/init-path.png -> /Users/kathyle/github/PyRosetta.notebooks/release/./02.02-Protein-Geometry-and-Visualization/init-path.png
+[NotebookApp | INFO] Updating/creating assignment '02.02-Protein-Geometry-and-Visualization': {}
+[NotebookApp | INFO] Converting notebook /Users/kathyle/github/PyRosetta.notebooks/source/./02.02-Protein-Geometry-and-Visualization/02.02-Protein-Geometry-and-Visualization.ipynb
+[NotebookApp | INFO] Writing 17070 bytes to /Users/kathyle/github/PyRosetta.notebooks/release/./02.02-Protein-Geometry-and-Visualization/02.02-Protein-Geometry-and-Visualization.ipynb
+[NotebookApp | INFO] Setting destination file permissions to 644
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] Removing existing assignment: /Users/kathyle/github/PyRosetta.notebooks/release/03.01-Score-Function-Basics
+[NotebookApp | INFO] Copying /Users/kathyle/github/PyRosetta.notebooks/source/./03.01-Score-Function-Basics/.DS_Store -> /Users/kathyle/github/PyRosetta.notebooks/release/./03.01-Score-Function-Basics/.DS_Store
+[NotebookApp | INFO] Copying /Users/kathyle/github/PyRosetta.notebooks/source/./03.01-Score-Function-Basics/PyMOL-send_energy.gif -> /Users/kathyle/github/PyRosetta.notebooks/release/./03.01-Score-Function-Basics/PyMOL-send_energy.gif
+[NotebookApp | INFO] Updating/creating assignment '03.01-Score-Function-Basics': {}
+[NotebookApp | WARNING] Removing notebook 'Workshop3_Score_Function_Basics_answers' from the gradebook
+[NotebookApp | INFO] Converting notebook /Users/kathyle/github/PyRosetta.notebooks/source/./03.01-Score-Function-Basics/03.01-Score-Function-Basics.ipynb
+[NotebookApp | INFO] Writing 26106 bytes to /Users/kathyle/github/PyRosetta.notebooks/release/./03.01-Score-Function-Basics/03.01-Score-Function-Basics.ipynb
+[NotebookApp | INFO] Setting destination file permissions to 644
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | INFO] Copying /Users/kathyle/github/PyRosetta.notebooks/source/./04.01-Folding/.DS_Store -> /Users/kathyle/github/PyRosetta.notebooks/release/./04.01-Folding/.DS_Store
+[NotebookApp | INFO] Updating/creating assignment '04.01-Folding': {}
+[NotebookApp | INFO] Converting notebook /Users/kathyle/github/PyRosetta.notebooks/source/./04.01-Folding/04.01-Folding.ipynb
+[NotebookApp | ERROR] There was an error processing assignment: /Users/kathyle/github/PyRosetta.notebooks/source/./04.01-Folding
+[NotebookApp | ERROR] Traceback (most recent call last):
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/nbgrader/converters/base.py", line 293, in convert_notebooks
+        self.convert_single_notebook(notebook_filename)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/nbgrader/converters/base.py", line 249, in convert_single_notebook
+        output, resources = self.exporter.from_filename(notebook_filename, resources=resources)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 174, in from_filename
+        return self.from_file(f, resources=resources, **kw)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 192, in from_file
+        return self.from_notebook_node(nbformat.read(file_stream, as_version=4), resources=resources, **kw)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/nbconvert/exporters/notebook.py", line 31, in from_notebook_node
+        nb_copy, resources = super(NotebookExporter, self).from_notebook_node(nb, resources, **kw)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 134, in from_notebook_node
+        nb_copy, resources = self._preprocess(nb_copy, resources)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/nbconvert/exporters/exporter.py", line 311, in _preprocess
+        nbc, resc = preprocessor(nbc, resc)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 47, in __call__
+        return self.preprocess(nb, resources)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/nbgrader/preprocessors/clearsolutions.py", line 130, in preprocess
+        nb, resources = super(ClearSolutions, self).preprocess(nb, resources)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/nbconvert/preprocessors/base.py", line 69, in preprocess
+        nb.cells[index], resources = self.preprocess_cell(cell, resources, index)
+      File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/nbgrader/preprocessors/clearsolutions.py", line 149, in preprocess_cell
+        "Solution region detected in a non-solution cell; please make sure "
+    RuntimeError: Solution region detected in a non-solution cell; please make sure all solution regions are within solution cells.
+    
+[NotebookApp | WARNING] Removing failed assignment: /Users/kathyle/github/PyRosetta.notebooks/release/04.01-Folding
+[NotebookApp | ERROR] There was an error processing assignment '04.01-Folding' for student '.'
+[NotebookApp | ERROR] Please see the the above traceback for details on the specific errors on the above failures.
+[NotebookApp | CRITICAL] Unwritable directory, please contact your instructor: /srv/nbgrader/exchange
+[NotebookApp | WARNING] Notebook release/02.01-Pose-Basics/02.01-Pose-Basics.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: f56ee8c0-3a5f-4792-8041-dd6b518a5b8a
+[NotebookApp | INFO] 302 GET /notebooks/release/02.01-Pose-Basics/dihedral-final.png (::1) 2.19ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel f56ee8c0-3a5f-4792-8041-dd6b518a5b8a
+[NotebookApp | INFO] Starting buffering for f56ee8c0-3a5f-4792-8041-dd6b518a5b8a:3efa7d2752ee47348daf197cde4b53e8
+[NotebookApp | INFO] Kernel restarted: f56ee8c0-3a5f-4792-8041-dd6b518a5b8a
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel f56ee8c0-3a5f-4792-8041-dd6b518a5b8a
+[NotebookApp | INFO] Restoring connection for f56ee8c0-3a5f-4792-8041-dd6b518a5b8a:3efa7d2752ee47348daf197cde4b53e8
+[NotebookApp | INFO] Replaying 3 buffered messages
+[NotebookApp | INFO] Starting buffering for f56ee8c0-3a5f-4792-8041-dd6b518a5b8a:3efa7d2752ee47348daf197cde4b53e8
+[NotebookApp | INFO] Kernel restarted: f56ee8c0-3a5f-4792-8041-dd6b518a5b8a
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel f56ee8c0-3a5f-4792-8041-dd6b518a5b8a
+[NotebookApp | INFO] Restoring connection for f56ee8c0-3a5f-4792-8041-dd6b518a5b8a:3efa7d2752ee47348daf197cde4b53e8
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Starting buffering for f56ee8c0-3a5f-4792-8041-dd6b518a5b8a:3efa7d2752ee47348daf197cde4b53e8
+[NotebookApp | WARNING] Notebook release/02.02-Protein-Geometry-and-Visualization/02.02-Protein-Geometry-and-Visualization.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: cb891849-6611-40bd-9801-89ac67407e3f
+[NotebookApp | INFO] 302 GET /notebooks/release/02.02-Protein-Geometry-and-Visualization/init-path.png (::1) 1.73ms
+[NotebookApp | INFO] 302 GET /notebooks/release/02.02-Protein-Geometry-and-Visualization/PyMOL-tutorial.gif (::1) 1.75ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel cb891849-6611-40bd-9801-89ac67407e3f
+[NotebookApp | INFO] Starting buffering for cb891849-6611-40bd-9801-89ac67407e3f:1edd3aca4aae497d8a06ba803776c84a
+[NotebookApp | WARNING] Notebook release/03.01-Score-Function-Basics/03.01-Score-Function-Basics.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 9436deec-b79f-4ffc-ab88-7eec13f9de83
+[NotebookApp | INFO] 302 GET /notebooks/release/03.01-Score-Function-Basics/PyMOL-send_energy.gif (::1) 2.10ms
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 9436deec-b79f-4ffc-ab88-7eec13f9de83
+[NotebookApp | INFO] Starting buffering for 9436deec-b79f-4ffc-ab88-7eec13f9de83:5704d69d140b49dd81215b40dcd423b5
