@@ -3,7 +3,7 @@
 
 ## [Chapter 2.0 Introduction to PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb)
 
-### [2.1 Workshop #2: PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb)
+### [2.1 Pose Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb)
 - [Loading in a PDB File ##](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb#Loading-in-a-PDB-File-##)
     - [Exercise 1: Inspecting pose sequences](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb#Exercise-1:-Inspecting-pose-sequences)
     - [Bonus Exercise 1: Identifying differences in sequences](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb#Bonus-Exercise-1:-Identifying-differences-in-sequences)
@@ -15,7 +15,8 @@
 - [Getting spatial features from a Pose ##](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb#Getting-spatial-features-from-a-Pose-##)
 - [References](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb#References)
 
-### [2.2 Rosetta Database Files](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Protein-Geometry-and-Visualization.ipynb)
+### [2.2 Protein Geometry and Visualization](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Protein-Geometry-and-Visualization.ipynb)
+- [Rosetta Database Files](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Protein-Geometry-and-Visualization.ipynb#Rosetta-Database-Files)
     - [Exercise 5: Calculating psi angle](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Protein-Geometry-and-Visualization.ipynb#Exercise-5:-Calculating-psi-angle)
 - [Manipulating Protein Geometry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Protein-Geometry-and-Visualization.ipynb#Manipulating-Protein-Geometry)
 - [Visualization and the PyMOL Mover](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Protein-Geometry-and-Visualization.ipynb#Visualization-and-the-PyMOL-Mover)
@@ -35,8 +36,7 @@
 
 ## [Chapter 3.0 Score Functions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.00-Score-Functions.ipynb)
 
-### [3.1 Workshop 3: Working with the Rosetta Energy Function](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb)
-- [Score Function Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#Score-Function-Basics)
+### [3.1 Score Function Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb)
 - [Analysis of Hydrogen Bonds](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#Analysis-of-Hydrogen-Bonds)
 - [Practice: Analyzing energy between residues](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#Practice:-Analyzing-energy-between-residues)
 - [Energies and the PyMOL Mover](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#Energies-and-the-PyMOL-Mover)
@@ -49,7 +49,7 @@
 
 ## [Chapter 4.0 Introduction to Folding](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.00-Introduction-to-Folding.ipynb)
 
-### [4.1 Workshop #04.01: Basic Folding Algorithm](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.01-Basic-Folding-Algorithm.ipynb)
+### [4.1 Basic Folding Algorithm](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.01-Basic-Folding-Algorithm.ipynb)
 - [Building the Pose](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.01-Basic-Folding-Algorithm.ipynb#Building-the-Pose)
 - [Building A Basic *de Novo* Folding Algorithm](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.01-Basic-Folding-Algorithm.ipynb#Building-A-Basic-*de-Novo*-Folding-Algorithm)
     - [Step 1: Random Move](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.01-Basic-Folding-Algorithm.ipynb#Step-1:-Random-Move)
@@ -61,7 +61,7 @@
 * Figures
     - [SegmentLocal](folding.gif "folding")
 
-### [4.2 Workshop #04.02: Low-Res Scoring and Fragments](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.02-Low-Res-Scoring-and-Fragments.ipynb)
+### [4.2 Low-Res Scoring and Fragments](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.02-Low-Res-Scoring-and-Fragments.ipynb)
 - [Low-Resolution (Centroid) Scoring](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.02-Low-Res-Scoring-and-Fragments.ipynb#Low-Resolution-(Centroid)-Scoring)
     - [SwitchResidueTypeSetMover](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.02-Low-Res-Scoring-and-Fragments.ipynb#SwitchResidueTypeSetMover)
     - [Exercise 1: Centroid Folding Algorithm](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.02-Low-Res-Scoring-and-Fragments.ipynb#Exercise-1:-Centroid-Folding-Algorithm)
