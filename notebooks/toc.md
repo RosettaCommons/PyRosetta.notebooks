@@ -1,5 +1,8 @@
 # [PyRosetta](https://RosettaCommons.github.io/PyRosetta)
 
+
+## [Chapter 2.0 Introduction to PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb)
+
 ### [2.1 Workshop #2: PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb)
 - [Loading in a PDB File ##](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb#Loading-in-a-PDB-File-##)
     - [Exercise 1: Inspecting pose sequences](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb#Exercise-1:-Inspecting-pose-sequences)
@@ -29,6 +32,9 @@
     - [Ramachandran plot](http://kinemage.biochem.duke.edu/teaching/anatax/html/anatax.1b.html)
     - [Richardson's Anatomy and Taxonomy of Protein Structure](http://kinemage.biochem.duke.edu/teaching/anatax/)
 
+
+## [Chapter 3.0 Score Functions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.00-Score-Functions.ipynb)
+
 ### [3.1 Workshop 3: Working with the Rosetta Energy Function](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb)
 - [Score Function Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#Score-Function-Basics)
 - [Analysis of Hydrogen Bonds](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#Analysis-of-Hydrogen-Bonds)
@@ -39,6 +45,9 @@
     - [SegmentLocal](PyMOL-send_energy.gif "send_energy")
 * Links
     - [documentation](https://graylab.jhu.edu/PyRosetta.documentation/pyrosetta.toolbox.atom_pair_energy.html?highlight=etable_atom_pair_energies#pyrosetta.toolbox.atom_pair_energy.etable_atom_pair_energies)
+
+
+## [Chapter 4.0 Introduction to Folding](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.00-Introduction-to-Folding.ipynb)
 
 ### [4.1 Workshop #04.01: Basic Folding Algorithm](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.01-Basic-Folding-Algorithm.ipynb)
 - [Building the Pose](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.01-Basic-Folding-Algorithm.ipynb#Building-the-Pose)

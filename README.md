@@ -3,8 +3,14 @@
 # PyRosetta
 
 ### [Table of Contents](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/toc.ipynb?flush=true)
+
+### [Chapter 2.0 Introduction to PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb)
 - [2.1 Workshop #2: PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb)
 - [2.2 Rosetta Database Files](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Protein-Geometry-and-Visualization.ipynb)
+
+### [Chapter 3.0 Score Functions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.00-Score-Functions.ipynb)
 - [3.1 Workshop 3: Working with the Rosetta Energy Function](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb)
+
+### [Chapter 4.0 Introduction to Folding](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.00-Introduction-to-Folding.ipynb)
 - [4.1 Workshop #04.01: Basic Folding Algorithm](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.01-Basic-Folding-Algorithm.ipynb)
 - [4.2 Workshop #04.02: Low-Res Scoring and Fragments](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.02-Low-Res-Scoring-and-Fragments.ipynb)
