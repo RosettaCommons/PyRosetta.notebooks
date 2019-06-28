@@ -8,9 +8,11 @@
 - [2.1 Pose Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb)
 - [2.2 Protein Geometry and Visualization](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Protein-Geometry-and-Visualization.ipynb)
 
-### [Chapter 3.0 Score Functions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.00-Score-Functions.ipynb)
+### [Chapter 3.0 Rosetta Energy Score Functions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.00-Rosetta-Energy-Score-Functions.ipynb)
 - [3.1 Score Function Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb)
 
 ### [Chapter 4.0 Introduction to Folding](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.00-Introduction-to-Folding.ipynb)
 - [4.1 Basic Folding Algorithm](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.01-Basic-Folding-Algorithm.ipynb)
 - [4.2 Low-Res Scoring and Fragments](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.02-Low-Res-Scoring-and-Fragments.ipynb)
+
+### [Chapter 5.0 Structure Refinement](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.00-Structure-Refinement.ipynb)

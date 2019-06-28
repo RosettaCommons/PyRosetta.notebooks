@@ -34,7 +34,7 @@
     - [Richardson's Anatomy and Taxonomy of Protein Structure](http://kinemage.biochem.duke.edu/teaching/anatax/)
 
 
-## [Chapter 3.0 Score Functions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.00-Score-Functions.ipynb)
+## [Chapter 3.0 Rosetta Energy Score Functions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.00-Rosetta-Energy-Score-Functions.ipynb)
 
 ### [3.1 Score Function Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb)
 - [Analysis of Hydrogen Bonds](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#Analysis-of-Hydrogen-Bonds)
@@ -70,3 +70,6 @@
     - [Using FragmentMover and MoveMap](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.02-Low-Res-Scoring-and-Fragments.ipynb#Using-FragmentMover-and-MoveMap)
     - [Exercise 2: Fragment Folding Algorithm](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.02-Low-Res-Scoring-and-Fragments.ipynb#Exercise-2:-Fragment-Folding-Algorithm)
     - [Programming Exercises](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.02-Low-Res-Scoring-and-Fragments.ipynb#Programming-Exercises)
+
+
+## [Chapter 5.0 Structure Refinement](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.00-Structure-Refinement.ipynb)
