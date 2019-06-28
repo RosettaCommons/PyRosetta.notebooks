@@ -73,3 +73,15 @@
 
 
 ## [Chapter 5.0 Structure Refinement](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.00-Structure-Refinement.ipynb)
+
+### [5.1 High-Resolution Movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb)
+- [Small and Shear Moves](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Small-and-Shear-Moves)
+    - [Test your mover by applying it to your pose](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Test-your-mover-by-applying-it-to-your-pose)
+    - [Comparing small and shear movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Comparing-small-and-shear-movers)
+- [Minimization Moves](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Minimization-Moves)
+- [Monte Carlo Object](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Monte-Carlo-Object)
+- [Trial Mover](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Trial-Mover)
+- [Sequence and Repeat Movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Sequence-and-Repeat-Movers)
+- [Refinement Protocol](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Refinement-Protocol)
+- [Programming Exercises](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Programming-Exercises)
+- [Thought Questions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Thought-Questions)

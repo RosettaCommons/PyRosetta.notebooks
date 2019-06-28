@@ -16,3 +16,4 @@
 - [4.2 Low-Res Scoring and Fragments](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.02-Low-Res-Scoring-and-Fragments.ipynb)
 
 ### [Chapter 5.0 Structure Refinement](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.00-Structure-Refinement.ipynb)
+- [5.1 High-Resolution Movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb)
