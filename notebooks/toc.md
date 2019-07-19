@@ -14,6 +14,8 @@
     - [Exercise 4: Some residue commands](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb#Exercise-4:-Some-residue-commands)
 - [Getting spatial features from a Pose ##](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb#Getting-spatial-features-from-a-Pose-##)
 - [References](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb#References)
+* Figures
+    - [dihedralpic](https://github.com/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/dihedral-final.png?raw=true)
 
 ### [2.2 Protein Geometry and Visualization](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Protein-Geometry-and-Visualization.ipynb)
 - [Rosetta Database Files](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Protein-Geometry-and-Visualization.ipynb#Rosetta-Database-Files)
@@ -85,3 +87,17 @@
 - [Refinement Protocol](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Refinement-Protocol)
 - [Programming Exercises](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Programming-Exercises)
 - [Thought Questions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Thought-Questions)
+
+
+## [Chapter 6.0 Packing & Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.00-Packing-and-Design.ipynb)
+
+### [6.1 None](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb)
+- [Side Chain Conformations, the Rotamer Library, and Dunbrack Energies](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Side-Chain-Conformations,-the-Rotamer-Library,-and-Dunbrack-Energies)
+- [Monte Carlo Side-Chain Packing](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Monte-Carlo-Side-Chain-Packing)
+- [Packing for Refinement](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Packing-for-Refinement)
+- [Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Design)
+    - [In your terminal:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#In-your-terminal:)
+    - [Back here in the notebook:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Back-here-in-the-notebook:)
+    - [In your terminal:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#In-your-terminal:)
+    - [Back here in the notebook:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Back-here-in-the-notebook:)
+    - [Programming Exercises](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Programming-Exercises)
