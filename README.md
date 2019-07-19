@@ -20,3 +20,7 @@
 
 ### [Chapter 6.0 Packing & Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.00-Packing-and-Design.ipynb)
 - [6.1 None](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb)
+
+### [Chapter 7.0 Docking](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/07.00-Docking.ipynb)
+- [7.1 Fast Fourier Transform Based Docking via ZDOCK](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/07.01-Fast-Fourier-Transform-Based-Docking-via-ZDOCK.ipynb)
+- [7.2 Docking Moves in Rosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/07.02-Docking-Moves-in-Rosetta.ipynb)

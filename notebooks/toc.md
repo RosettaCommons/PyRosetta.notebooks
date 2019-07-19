@@ -101,3 +101,17 @@
     - [In your terminal:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#In-your-terminal:)
     - [Back here in the notebook:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Back-here-in-the-notebook:)
     - [Programming Exercises](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Programming-Exercises)
+
+
+## [Chapter 7.0 Docking](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/07.00-Docking.ipynb)
+
+### [7.1 Fast Fourier Transform Based Docking via ZDOCK](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/07.01-Fast-Fourier-Transform-Based-Docking-via-ZDOCK.ipynb)
+
+### [7.2 Docking Moves in Rosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/07.02-Docking-Moves-in-Rosetta.ipynb)
+- [Rigid-body transformations and Fold Trees](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/07.02-Docking-Moves-in-Rosetta.ipynb#Rigid-body-transformations-and-Fold-Trees)
+- [RigidBody Movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/07.02-Docking-Moves-in-Rosetta.ipynb#RigidBody-Movers)
+- [Low-Resolution Docking via RosettaDock](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/07.02-Docking-Moves-in-Rosetta.ipynb#Low-Resolution-Docking-via-RosettaDock)
+- [Job Distributor](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/07.02-Docking-Moves-in-Rosetta.ipynb#Job-Distributor)
+- [High-Resolution Docking](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/07.02-Docking-Moves-in-Rosetta.ipynb#High-Resolution-Docking)
+- [Docking Funnel](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/07.02-Docking-Moves-in-Rosetta.ipynb#Docking-Funnel)
+- [Programming Exercises](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/07.02-Docking-Moves-in-Rosetta.ipynb#Programming-Exercises)
