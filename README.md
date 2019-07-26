@@ -3,6 +3,8 @@
 # PyRosetta
 
 ### [Table of Contents](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/toc.ipynb?flush=true)
+- [1.1 None](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/01.01-PyRosetta-Google-Drive-Setup.ipynb)
+- [1.2 None](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/01.02-PyRosetta-Google-Drive-Usage-Example.ipynb)
 
 ### [Chapter 2.0 Introduction to PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb)
 - [2.1 Pose Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb)

@@ -2,7 +2,7 @@
 # Make sure you have already installed nbgrader: https://nbgrader.readthedocs.io/en/stable/user_guide/installation.html
 
 # Uncomment this for the first run:
-# nbgrader quickstart nbgrader-notebooks
+nbgrader quickstart nbgrader-notebooks
 
 for i in ./notebooks/*.ipynb
 do
