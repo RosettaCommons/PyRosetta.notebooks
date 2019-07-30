@@ -3,8 +3,8 @@
 # PyRosetta
 
 ### [Table of Contents](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/toc.ipynb?flush=true)
-- [1.1 None](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/01.01-PyRosetta-Google-Drive-Setup.ipynb)
-- [1.2 None](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/01.02-PyRosetta-Google-Drive-Usage-Example.ipynb)
+- [1.1 PyRosetta Google Drive Setup](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/01.01-PyRosetta-Google-Drive-Setup.ipynb)
+- [1.2 PyRosetta Google Drive Usage Example](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/01.02-PyRosetta-Google-Drive-Usage-Example.ipynb)
 
 ### [Chapter 2.0 Introduction to PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb)
 - [2.1 Pose Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb)
@@ -21,7 +21,7 @@
 - [5.1 High-Resolution Movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb)
 
 ### [Chapter 6.0 Packing & Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.00-Packing-and-Design.ipynb)
-- [6.1 None](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb)
+- [6.1 Side Chain Conformations, the Rotamer Library, and Dunbrack Energies](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb)
 
 ### [Chapter 7.0 Docking](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/07.00-Docking.ipynb)
 - [7.1 Fast Fourier Transform Based Docking via ZDOCK](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/07.01-Fast-Fourier-Transform-Based-Docking-via-ZDOCK.ipynb)

@@ -1,8 +1,8 @@
 # [PyRosetta](https://RosettaCommons.github.io/PyRosetta)
 
-### [1.1 None](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/01.01-PyRosetta-Google-Drive-Setup.ipynb)
+### [1.1 PyRosetta Google Drive Setup](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/01.01-PyRosetta-Google-Drive-Setup.ipynb)
 
-### [1.2 None](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/01.02-PyRosetta-Google-Drive-Usage-Example.ipynb)
+### [1.2 PyRosetta Google Drive Usage Example](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/01.02-PyRosetta-Google-Drive-Usage-Example.ipynb)
 
 
 ## [Chapter 2.0 Introduction to PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb)
@@ -18,8 +18,6 @@
     - [Exercise 4: Some residue commands](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb#Exercise-4:-Some-residue-commands)
 - [Getting spatial features from a Pose ##](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb#Getting-spatial-features-from-a-Pose-##)
 - [References](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb#References)
-* Figures
-    - [dihedralpic](https://github.com/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/dihedral-final.png?raw=true)
 
 ### [2.2 Protein Geometry and Visualization](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Protein-Geometry-and-Visualization.ipynb)
 - [Rosetta Database Files](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Protein-Geometry-and-Visualization.ipynb#Rosetta-Database-Files)
@@ -33,8 +31,6 @@
 - [Answers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Protein-Geometry-and-Visualization.ipynb#Answers)
     - [Exercise 6](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Protein-Geometry-and-Visualization.ipynb#Exercise-6)
 - [References](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Protein-Geometry-and-Visualization.ipynb#References)
-* Figures
-    - [SegmentLocal](PyMOL-tutorial.gif "PyMOL")
 * Links
     - [Ramachandran plot](http://kinemage.biochem.duke.edu/teaching/anatax/html/anatax.1b.html)
     - [Richardson's Anatomy and Taxonomy of Protein Structure](http://kinemage.biochem.duke.edu/teaching/anatax/)
@@ -47,8 +43,6 @@
 - [Practice: Analyzing energy between residues](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#Practice:-Analyzing-energy-between-residues)
 - [Energies and the PyMOL Mover](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#Energies-and-the-PyMOL-Mover)
 - [References](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#References)
-* Figures
-    - [SegmentLocal](PyMOL-send_energy.gif "send_energy")
 * Links
     - [documentation](https://graylab.jhu.edu/PyRosetta.documentation/pyrosetta.toolbox.atom_pair_energy.html?highlight=etable_atom_pair_energies#pyrosetta.toolbox.atom_pair_energy.etable_atom_pair_energies)
 
@@ -64,8 +58,6 @@
     - [Step 4: Execution](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.01-Basic-Folding-Algorithm.ipynb#Step-4:-Execution)
     - [Exercise 1: Comparing to Alpha Helices](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.01-Basic-Folding-Algorithm.ipynb#Exercise-1:-Comparing-to-Alpha-Helices)
     - [Exercise 2: Optimizing Algorithm](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.01-Basic-Folding-Algorithm.ipynb#Exercise-2:-Optimizing-Algorithm)
-* Figures
-    - [SegmentLocal](folding.gif "folding")
 
 ### [4.2 Low-Res Scoring and Fragments](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.02-Low-Res-Scoring-and-Fragments.ipynb)
 - [Low-Resolution (Centroid) Scoring](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.02-Low-Res-Scoring-and-Fragments.ipynb#Low-Resolution-(Centroid)-Scoring)
@@ -95,8 +87,7 @@
 
 ## [Chapter 6.0 Packing & Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.00-Packing-and-Design.ipynb)
 
-### [6.1 None](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb)
-- [Side Chain Conformations, the Rotamer Library, and Dunbrack Energies](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Side-Chain-Conformations,-the-Rotamer-Library,-and-Dunbrack-Energies)
+### [6.1 Side Chain Conformations, the Rotamer Library, and Dunbrack Energies](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb)
 - [Monte Carlo Side-Chain Packing](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Monte-Carlo-Side-Chain-Packing)
 - [Packing for Refinement](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Packing-for-Refinement)
 - [Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Design)
