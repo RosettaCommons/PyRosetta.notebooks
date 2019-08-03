@@ -9,17 +9,17 @@
 _Step 1:_ Sign in to [Google Drive](https://drive.google.com/drive/u/0/my-drive).
 
 _Step 2:_ Make a new folder called “PyRosetta” in your top level directory on Google Drive.
-![PyRosetta folder]()
+![PyRosetta folder](https://github.com/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/Media/PyRosetta-folder.png?raw=true)
 
 _Step 3:_ Get your [PyRosetta license](https://els.comotion.uw.edu/licenses/88).
 
 _Step 4:_ Download the Linux [PyRosetta package](to http://www.pyrosetta.org/dow) that is called "Python-3.6.MinSizeRel".
-![Linux Download]()
+![Linux Download](https://github.com/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/Media/linux-download.png?raw=true)
 
 _Step 5:_ Upload the Linux PyRosetta package (.tar file) to the PyRosetta folder in your Google Drive.
 
 _Step 6:_ Upload the PyRosetta notebooks folder to the top-level directory of your Google Drive.
-![Google Drive]()
+![Google Drive](https://github.com/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/Media/google-drive.png?raw=true)
 
 _Step 7:_ Open up “01.01-PyRosetta-Google-Drive-Setup.ipynb” in Google Colab by right-clicking, going under “Open With…” and clicking Google Colaboratory.
 
@@ -43,7 +43,11 @@ _Step 3:_ When you are done making changes, run make-student-nb.bash to automati
 
 ### [Chapter 2.0 Introduction to PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb)
 - [2.1 Pose Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb)
-- [2.2 Protein Geometry and Visualization](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Protein-Geometry-and-Visualization.ipynb)
+- [2.2 Working with Pose residues](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Working-with-Pose-Residues.ipynb)
+- [2.3 Accessing PyRosetta Documentation](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.03-Accessing-PyRosetta-Documentation.ipynb)
+- [2.4 Getting spatial features from a Pose](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.04-Getting-Spatial-Features-from-Pose.ipynb)
+- [2.5 Protein Geometry and Visualization](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.05-Protein-Geometry-and-Visualization.ipynb)
+- [2.6 Visualization and the PyMOL Mover](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.06-Visualization-and-PyMOL-Mover.ipynb)
 
 ### [Chapter 3.0 Rosetta Energy Score Functions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.00-Rosetta-Energy-Score-Functions.ipynb)
 - [3.1 Score Function Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb)
