@@ -20,7 +20,7 @@
     - [Bonus Exercise 1: Identifying differences in sequences](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.01-Pose-Basics.ipynb#Bonus-Exercise-1:-Identifying-differences-in-sequences)
 
 ### [2.2 Working with Pose residues](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Working-with-Pose-Residues.ipynb)
-    - [Exercise 2: Residue objects](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Working-with-Pose-Residues.ipynb#Exercise-2:-Residue-objects)
+- [Exercise 2: Residue objects](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.02-Working-with-Pose-Residues.ipynb#Exercise-2:-Residue-objects)
 
 ### [2.3 Accessing PyRosetta Documentation](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.03-Accessing-PyRosetta-Documentation.ipynb)
 - [Exercise 3: Python Object Help](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.03-Accessing-PyRosetta-Documentation.ipynb#Exercise-3:-Python-Object-Help)

@@ -6,6 +6,10 @@
 # (https://nbgrader.readthedocs.io/en/stable/user_guide/installation.html)
 # and nbpages (https://pypi.org/project/nbpages/).
 
+# Update TOC and indexes
+nbpages
+
+
 # Re-creating student-notebooks folder
 rm -r student-notebooks
 nbgrader quickstart student-notebooks
@@ -46,6 +50,5 @@ done
 rm -r release
 
 
-# Update TOC and indexes with nbpages
-cd ..
-nbpages
+# Copy over the Media folder to student-notebooks folder
+cp -r ../notebooks/Media ./Media
