@@ -1,5 +1,12 @@
 # [PyRosetta](https://RosettaCommons.github.io/PyRosetta)
 
+
+## [Chapter 1.0 How to Get Started](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/01.00-How-to-Get-Started.ipynb)
+- [Students](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/01.00-How-to-Get-Started.ipynb#Students)
+- [Instructors](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/01.00-How-to-Get-Started.ipynb#Instructors)
+* Links
+    - [PyRosetta package](http://www.pyrosetta.org/dow)
+
 ### [1.1 PyRosetta Google Drive Setup](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/01.01-PyRosetta-Google-Drive-Setup.ipynb)
 
 ### [1.2 PyRosetta Google Drive Usage Example](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/01.02-PyRosetta-Google-Drive-Usage-Example.ipynb)
@@ -22,10 +29,10 @@
 ### [2.4 Getting spatial features from a Pose](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.04-Getting-Spatial-Features-from-Pose.ipynb)
 - [References](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.04-Getting-Spatial-Features-from-Pose.ipynb#References)
 
-### [2.5 Protein Geometry and Visualization](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.05-Protein-Geometry-and-Visualization.ipynb)
-- [Rosetta Database Files](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.05-Protein-Geometry-and-Visualization.ipynb#Rosetta-Database-Files)
-    - [Exercise 5: Calculating psi angle](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.05-Protein-Geometry-and-Visualization.ipynb#Exercise-5:-Calculating-psi-angle)
-- [Manipulating Protein Geometry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.05-Protein-Geometry-and-Visualization.ipynb#Manipulating-Protein-Geometry)
+### [2.5 Protein Geometry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.05-Protein-Geometry.ipynb)
+- [Rosetta Database Files](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.05-Protein-Geometry.ipynb#Rosetta-Database-Files)
+    - [Exercise 5: Calculating psi angle](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.05-Protein-Geometry.ipynb#Exercise-5:-Calculating-psi-angle)
+- [Manipulating Protein Geometry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.05-Protein-Geometry.ipynb#Manipulating-Protein-Geometry)
 
 ### [2.6 Visualization and the PyMOL Mover](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.06-Visualization-and-PyMOL-Mover.ipynb)
 - [Exercise 7: Visualizing changes in backbone angles](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/02.06-Visualization-and-PyMOL-Mover.ipynb#Exercise-7:-Visualizing-changes-in-backbone-angles)
@@ -43,12 +50,16 @@
 ## [Chapter 3.0 Rosetta Energy Score Functions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.00-Rosetta-Energy-Score-Functions.ipynb)
 
 ### [3.1 Score Function Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb)
-- [Analysis of Hydrogen Bonds](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#Analysis-of-Hydrogen-Bonds)
-- [Practice: Analyzing energy between residues](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#Practice:-Analyzing-energy-between-residues)
-- [Energies and the PyMOL Mover](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#Energies-and-the-PyMOL-Mover)
-- [References](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#References)
+- [Practice: List the terms in the energy function and their relative weights](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#Practice:-List-the-terms-in-the-energy-function-and-their-relative-weights)
+- [Custom energy functions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#Custom-energy-functions)
+- [Energy Breakdown](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#Energy-Breakdown)
 * Links
     - [documentation](https://graylab.jhu.edu/PyRosetta.documentation/pyrosetta.toolbox.atom_pair_energy.html?highlight=etable_atom_pair_energies#pyrosetta.toolbox.atom_pair_energy.etable_atom_pair_energies)
+
+### [3.2 Practice: Analyzing energy between residues](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.02-Analyzing-energy-between-residues.ipynb)
+
+### [3.3 Energies and the PyMOL Mover](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.03-Energies-and-the-PyMOLMover.ipynb)
+- [References](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/03.03-Energies-and-the-PyMOLMover.ipynb#References)
 
 
 ## [Chapter 4.0 Introduction to Folding](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/04.00-Introduction-to-Folding.ipynb)
@@ -76,30 +87,34 @@
 
 ## [Chapter 5.0 Structure Refinement](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.00-Structure-Refinement.ipynb)
 
-### [5.1 High-Resolution Movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb)
-- [Small and Shear Moves](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Small-and-Shear-Moves)
-    - [Test your mover by applying it to your pose](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Test-your-mover-by-applying-it-to-your-pose)
-    - [Comparing small and shear movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Comparing-small-and-shear-movers)
-- [Minimization Moves](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Minimization-Moves)
-- [Monte Carlo Object](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Monte-Carlo-Object)
-- [Trial Mover](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Trial-Mover)
-- [Sequence and Repeat Movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Sequence-and-Repeat-Movers)
-- [Refinement Protocol](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Refinement-Protocol)
-- [Programming Exercises](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Programming-Exercises)
-- [Thought Questions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-Structure-Refinement.ipynb#Thought-Questions)
+### [5.1 High-Resolution Movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-High-Res-Movers.ipynb)
+- [Small and Shear Moves](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-High-Res-Movers.ipynb#Small-and-Shear-Moves)
+    - [Test your mover by applying it to your pose](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-High-Res-Movers.ipynb#Test-your-mover-by-applying-it-to-your-pose)
+    - [Comparing small and shear movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-High-Res-Movers.ipynb#Comparing-small-and-shear-movers)
+- [Minimization Moves](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-High-Res-Movers.ipynb#Minimization-Moves)
+- [Monte Carlo Object](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-High-Res-Movers.ipynb#Monte-Carlo-Object)
+- [Trial Mover](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-High-Res-Movers.ipynb#Trial-Mover)
+- [Sequence and Repeat Movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.01-High-Res-Movers.ipynb#Sequence-and-Repeat-Movers)
+
+### [5.2 Refinement Protocol](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.02-Refinement-Protocol.ipynb)
+- [Programming Exercises](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.02-Refinement-Protocol.ipynb#Programming-Exercises)
+- [Thought Questions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/05.02-Refinement-Protocol.ipynb#Thought-Questions)
 
 
 ## [Chapter 6.0 Packing & Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.00-Packing-and-Design.ipynb)
 
-### [6.1 Side Chain Conformations, the Rotamer Library, and Dunbrack Energies](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb)
-- [Monte Carlo Side-Chain Packing](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Monte-Carlo-Side-Chain-Packing)
-- [Packing for Refinement](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Packing-for-Refinement)
-- [Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Design)
-    - [In your terminal:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#In-your-terminal:)
-    - [Back here in the notebook:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Back-here-in-the-notebook:)
-    - [In your terminal:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#In-your-terminal:)
-    - [Back here in the notebook:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Back-here-in-the-notebook:)
-    - [Programming Exercises](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Packing-and-Design.ipynb#Programming-Exercises)
+### [6.1 Side Chain Conformations and Dunbrack Energies](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.01-Side-Chain-Conformations-and-Dunbrack-Energies.ipynb)
+
+### [6.2 Side-Chain Packing](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.02-Side-chain-packing.ipynb)
+- [Monte Carlo](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.02-Side-chain-packing.ipynb#Monte-Carlo)
+- [Packing for Refinement](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.02-Side-chain-packing.ipynb#Packing-for-Refinement)
+
+### [6.3 Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.03-Design.ipynb)
+- [In your terminal:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.03-Design.ipynb#In-your-terminal:)
+- [Back here in the notebook:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.03-Design.ipynb#Back-here-in-the-notebook:)
+- [In your terminal:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.03-Design.ipynb#In-your-terminal:)
+- [Back here in the notebook:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.03-Design.ipynb#Back-here-in-the-notebook:)
+- [Programming Exercises](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/06.03-Design.ipynb#Programming-Exercises)
 
 
 ## [Chapter 7.0 Docking](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta/blob/master/notebooks/07.00-Docking.ipynb)
