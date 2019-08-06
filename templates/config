@@ -1,6 +1,6 @@
 [NBPAGES]
 github_url = https://github.com/RosettaCommons/PyRosetta.notebooks.git
-repository = RosettaCommons/PyRosetta
+repository = RosettaCommons/PyRosetta.notebooks
 page_title = PyRosetta
 page_url = https://RosettaCommons.github.io/PyRosetta
 
