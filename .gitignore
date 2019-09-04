@@ -2,3 +2,4 @@
 gradebook.db
 .nbgrader.log
 .ipynb_checkpoints
+.DS_Store
