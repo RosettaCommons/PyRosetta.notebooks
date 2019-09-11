@@ -50,8 +50,11 @@ done
 rm -r release
 
 
-# Copy over the Media folder to student-notebooks folder
+# Copy over the Media and other folders to student-notebooks folder
 cp -r ../notebooks/Media ./Media
+cp -r ../notebooks/expected_outputs ./expected_outputs
+cp -r ../notebooks/outputs ./outputs
+cp -r ../notebooks/inputs ./inputs
 
 
 # Edit TOC and index so that links are to the student versions
