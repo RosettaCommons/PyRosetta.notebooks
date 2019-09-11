@@ -1,0 +1,89 @@
+<ROSETTASCRIPTS>
+This RosettaScript is an example of using the RosettaAntibodyDesign components in an XML.
+ The script grafts light chain CDRs from a donor antibody, and then designs only the framework around those CDRs to accomodate the graft.
+ Our design algorithm is a pack/min/pack for speed.
+
+ For a production run of this, we would probably use relax with design or increase the number of rounds of pack/min/pack.
+
+ 	<RESIDUE_SELECTORS>
+ 		<CDR name="light_cdrs" cdrs="L1,L2,L3" />
+ 		<CDR name="L1" cdrs="L1"/>
+ 		<CDR name="L2" cdrs="L2"/>
+ 		<CDR name="L3" cdrs="L3"/>
+ 		<AntibodyRegion name="antigen" region="antigen_region" />
+ 		<AntibodyRegion name="framework" region="framework_region" />
+ 		<AntibodyRegion name="cdrs" region="cdr_region" />
+
+ 	</RESIDUE_SELECTORS>
+
+	<TASKOPERATIONS>
+
+		We will restrict packing to the CDRs we are interested and neighbors.  We disable design for all neighbor residues of the CDRs except the framework.  We could also do this using Residue Selectors
+	 	<RestrictToCDRsAndNeighbors name="restrict_to_cdrs" cdrs="L1,L2,L3" design_framework="1" design_cdrs="1"/>
+	 	<AddCDRProfilesOperation name="profiles" cdrs="L1,L2,L3" fallback_strategy="CONSERVATIVE" /> 	 	
+
+	 	
+	</TASKOPERATIONS>
+
+	<MOVE_MAP_FACTORIES>
+		<MoveMapFactory name="movemap_cdrs" bb="0" chi="0">
+			<Backbone residue_selector="light_cdrs" />
+			<Chi residue_selector="light_cdrs" />
+		</MoveMapFactory>
+	</MOVE_MAP_FACTORIES>
+
+	<SIMPLE_METRICS>
+
+		Add a few general metrics to our protocol
+		<SasaMetric name="sasa" residue_selector="light_cdrs" />
+		<SelectedResiduesPyMOLMetric name="cdr_selection" residue_selector="light_cdrs" />
+		<SequenceMetric name="L1_seq" residue_selector="L1" custom_type="L1"/>
+		<SequenceMetric name="L2_seq" residue_selector="L2" custom_type="L2"/>
+		<SequenceMetric name="L3_seq" residue_selector="L3" custom_type="L3"/>
+		<InteractionEnergyMetric name="cdr-int" residue_selector="light_cdrs" residue_selector2="antigen" />
+	</SIMPLE_METRICS>
+
+	<MOVERS>
+ 		Use our clusters to constrain each dihedral using circular harmonic constraints of derived from the cluster
+		<CDRDihedralConstraintMover name="dih_mover_L1" cdr="L1" use_cluster_csts="1" />
+		<CDRDihedralConstraintMover name="dih_mover_L2" cdr="L2" use_cluster_csts="1" />
+		<CDRDihedralConstraintMover name="dih_mover_L3" cdr="L3" use_cluster_csts="1" />
+	
+
+		<AntibodyCDRGrafter name="grafter" cdrs="L1,L2,L3" input_ab_scheme="AHO_Scheme" cdr_definition="North" donor_structure_from_pdb="malaria_cdrs.pdb" use_secondary_graft_mover="1" optimize_cdrs="0" optimize_cdr4_if_neighbor="1" />
+
+		<PackRotamersMover name="packrot" task_operations="restrict_to_cdrs,profiles" />
+
+		Minimize Light chain CDRs using the MoveMapFactory.  We do it in cartesian to prevent lever-arm effects
+		<MinMover name="minmover" cartesian="1" movemap_factory="movemap_cdrs" tolerance=".1"/>
+
+		Run our metrics
+		<RunSimpleMetrics name="design_metrics" metrics="sasa,cdr_selection,L1_seq,L2_seq,L3_seq,cdr-int" prefix="design_" />
+		<RunSimpleMetrics name="native_metrics" metrics="sasa,cdr_selection,L1_seq,L2_seq,L3_seq,cdr-int"  prefix="native_" />
+
+	</MOVERS>
+
+	<PROTOCOLS>
+
+		Run Metrics on the native antibody
+		<Add mover_name="native_metrics" />
+
+		Graft Light chain CDRs from our donor into our current antibody.
+		<Add mover_name="grafter" />
+
+ 		Add Constraints to the CDRs so that min doesn't change them too much
+		<Add mover_name="dih_mover_L1" />
+		<Add mover_name="dih_mover_L2" />
+		<Add mover_name="dih_mover_L3" />
+
+		Design framework around light chain to accomodate the grafted CDRs.  Pack/Min/Pack
+		<Add mover_name="packrot" />
+		<Add mover_name="minmover" />
+		<Add mover_name="packrot" /> 
+		<Add mover_name="minmover" />
+
+		Run Simple Metrics on the result
+		<Add mover_name="design_metrics" />
+
+	</PROTOCOLS>
+</ROSETTASCRIPTS>
