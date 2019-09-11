@@ -570,7 +570,7 @@ c.IncludeHeaderFooter.header = "source/header.ipynb"
 ## Removes the output from all code cells in a notebook.
 
 ## 
-#c.ClearOutputPreprocessor.remove_metadata_fields = {'collapsed', 'scrolled'}
+#c.ClearOutputPreprocessor.remove_metadata_fields = {'scrolled', 'collapsed'}
 
 #------------------------------------------------------------------------------
 # ClearOutput(NbGraderPreprocessor,ClearOutputPreprocessor) configuration
