@@ -25,13 +25,13 @@ _Step 7:_ Upload either (or both) the student-notebooks folder and the notebooks
 ![nb](https://github.com/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/Media/nb.png?raw=true)
 ![Google Drive](https://github.com/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/Media/google-drive.png?raw=true)
 
-_Step 7:_ Open up “01.01-PyRosetta-Google-Drive-Setup.ipynb” in Google Colab by right-clicking, going under “Open With…” and clicking Google Colaboratory.
+_Step 8:_ From the notebooks or student-notebooks folder, open up “01.01-PyRosetta-Google-Drive-Setup.ipynb” in Google Colab by right-clicking, going under “Open With…” and clicking Google Colaboratory.
 
-_Step 8:_ Follow steps to install PyRosetta. You will see a bar and a lot of output, and it should take 10-15 minutes.
+_Step 9:_ Follow steps to install PyRosetta. You will see a bar and a lot of output, and it should take 10-15 minutes.
 Note: You only need to do this once since this installation will be associated with your Google Drive account.
 ![install](https://github.com/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/Media/install.png?raw=true)
 
-_Step 9:_
+_Step 10:_
 Open up “01.02-PyRosetta-Google-Drive-Usage-Example.ipynb” in Colab to make sure that PyRosetta was installed properly. You are now ready to move on to the other notebooks!
 
 ### Instructors
