@@ -1,0 +1,22 @@
+#Input
+-ignore_unrecognized_res
+-ignore_zero_occupancy false
+-load_PDB_components false
+
+#Output
+-scorefile_format json
+-pdb_comments
+-skip_connect_info
+
+#Rotamers/packing (Generally recommended, but will slow us down here)
+#-ex1
+#-ex2
+#-use_input_sc
+
+#RAbD Options for speed
+-outer_cycle_rounds 5
+
+#Antibody (Not needed for RAbD, but needed for identify_cdr_clusters application)
+-input_ab_scheme AHo_Scheme
+-cdr_definition North
+-output_ab_scheme AHo_Scheme

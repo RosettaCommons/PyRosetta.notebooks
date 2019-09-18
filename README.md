@@ -72,8 +72,6 @@ _Step 3:_ When you are done making changes, run make-student-nb.bash to automati
 
 ### [Chapter 6.0 Packing & Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.00-Introduction-to-Packing-and-Design.ipynb)
 - [6.1 Side Chain Conformations and Dunbrack Energies](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.01-Side-Chain-Conformations-and-Dunbrack-Energies.ipynb)
-- [6.2 Packing and Relax](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.02-Packing-design-and-regional-relax.ipynb)
-- [6.3 Protein Design with a Resfile and FastRelax](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.03-Design-with-a-resfile-and-relax.ipynb)
 - [6.4 Protein Design 2](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.04-Protein-Design-2.ipynb)
 - [6.5 HBNet Before Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.05-HBNet-Before-Design.ipynb)
 - [6.6 *De Novo* Parametric Backbone Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.06-Introduction-to-Parametric-backbone-design.ipynb)
@@ -82,3 +80,7 @@ _Step 3:_ When you are done making changes, run make-student-nb.bash to automati
 ### [Chapter 7.0 Docking](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.00-Docking.ipynb)
 - [7.1 Fast Fourier Transform Based Docking via ZDOCK](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.01-Fast-Fourier-Transform-Based-Docking-via-ZDOCK.ipynb)
 - [7.2 Docking Moves in Rosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.02-Docking-Moves-in-Rosetta.ipynb)
+
+### [Chapter 10.0 Working With Antibodies](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/10.00-Working-With-Antibodies.ipynb)
+- [10.1 RosettaAntibody Framework](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/10.01-RosettaAntibody-Framework-and-SimpleMetrics.ipynb)
+- [10.2 RosettaAntibodyDesign](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/10.02-RosettaAntibodyDesign-RAbD.ipynb)

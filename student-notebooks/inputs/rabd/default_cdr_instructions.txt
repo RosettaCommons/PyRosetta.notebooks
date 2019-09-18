@@ -1,0 +1,88 @@
+#Added by Jared Adolf-Bryfogle
+#Format of this file will be explained in the documentation of the Rosetta Antibody Designer.
+
+#General
+ALL FIX
+DE FIX
+
+ALL WEIGHTS 1.0
+
+#Types
+ALL CDRSet INCLUDEONLY LENGTH_TYPES 1 2 3
+
+#Minimization - Options: min, relax, ds_relax cartesian, backrub, repack, none
+ALL MinProtocol MINTYPE min
+
+#Neighbors.  These are conservative values used in benchmarking.  Limit these to speed up runs.
+L1 MinProtocol Min_Neighbors L2 L3
+L2 MinProtocol Min_Neighbors L1
+L3 MinProtocol Min_Neighbors L1 H3
+H1 MinProtocol Min_Neighbors H2 H3
+H2 MinProtocol Min_Neighbors H1
+H3 MinProtocol Min_Neighbors L1 L3
+
+#Length
+ALL CDRSet LENGTH MAX 25
+ALL CDRSet LENGTH MIN 1
+
+
+#Profile Design
+ALL SeqDesign STRATEGY PROFILES
+ALL SeqDesign FALLBACK_STRATEGY CONSERVATIVE
+
+##DE Loops can be designed.  They use conservative design by default since we have no profile data!
+DE SeqDesign STRATEGY CONSERVATIVE
+
+
+
+
+
+#ALL SeqDesign FALLBACK_STRATEGY NO_DESIGN - Turns off design if fallback needed.
+
+
+#####################Examples for user files##############################
+
+#L1 FIX #Global Fix:
+#L3 Graft FIX #Fix for Graft step
+#L2 SeqDesign FIX #Fix for  Sequence Design
+
+
+###Additional includes/excludes - All listed here available as both INCLUDEONLY and EXCLUDE
+#ALL CDRSet INCLUDEONLY SPECIES Hu #Limit to human cdrs for grafting
+#ALL CDRSet INCLUDEONLY GERMLINE IGKV1 #Limit to only IGKV1 germlines for grafting
+#H1 CDRSet INCLUDEONLY PDBIDS 1HIL 2J88
+#L1 CDRSet INCLUDEONLY CLUSTERS L1-11-1
+#L3 CDRSet EXCLUDE PDBIDS 2J88
+
+###Additional CDRSet general options
+#L1 CDRSet ONLY_CURRENT_CLUSTER #Only sample in the identified cluster of the CDR.
+#ALL CDRSet CENTER_CLUSTERS_ONLY #Only sample on the center cluster members.
+
+#### Profiles ##########
+#Profile design - conservative vs cluster profiles.  Normal cluster-based.  Changing not for general use.
+#L3 SeqDesign STRATEGY CONSERVATIVE #Use basic conservative design for this CDR during high-res Design step:
+
+#L3 SeqDesign STRATEGY PROFILE_SETS #Sample whole sequences of CDRs with each cluster each pack. Useful if doing center cluster members.
+
+#L3 SeqDesign STRATEGY PROFILES_AND_SETS #Add both whole sequences of CDRs and the profile-based sampling to the task when doing design. This may eventually become the default.
+
+
+#######Fallback Strategy#######
+#L1 SeqDesign FALLBACK_STRATEGY BASIC #Use Basic design as the fallback if there is not enough data for profiles of that cluster.
+
+#H2 SeqDesign FALLBACK_STRATEGY No_Design # Turn off use of the Fallback strategy if not enough data and profiles are used as the primary strategy.  This means that H2 WILL NOT design if there is sparse data for profiles.  Useful for less aggressive design runs or H3.
+
+#### Weights ##########
+#H3  WEIGHTS 3.0 #Make H3 sampling at a weight of 3 (3 times all other CDRs)
+#ALL WEIGHTS 1.0 #Make sampling of all CDRs at equivalent weight.
+
+### Neighbor Minimization during Graft ######
+#L1 MinProtocol Min_Neighbors L2 L3
+#L1 MinProtocol Min_Other_CDRs L2 L3
+
+#### CDRSet Cutoffs #####
+#L1 CDRSet CLUSTER_CUTOFFS Z # Limits the CDRSet to include only CDRs of clusters that have Z or more members.  Used in conjunction with Sequence Design cutoffs to sample clusters where profile data is available or abundant or simply common clusters of a particular species.
+
+#### Disable certain amino acids ####
+#L1 SeqDesign DISALLOWED ARG C S ASN PRO
+
