@@ -1,0 +1,10 @@
+/home/klimaj/anaconda3/envs/pyrosetta-dev/bin/python expected_outputs/mutate_residue_from_command_line.py -t 2 -r ALA
+/home/klimaj/anaconda3/envs/pyrosetta-dev/bin/python expected_outputs/mutate_residue_from_command_line.py -t 2 -r TRP
+/home/klimaj/anaconda3/envs/pyrosetta-dev/bin/python expected_outputs/mutate_residue_from_command_line.py -t 4 -r ALA
+/home/klimaj/anaconda3/envs/pyrosetta-dev/bin/python expected_outputs/mutate_residue_from_command_line.py -t 4 -r TRP
+/home/klimaj/anaconda3/envs/pyrosetta-dev/bin/python expected_outputs/mutate_residue_from_command_line.py -t 6 -r ALA
+/home/klimaj/anaconda3/envs/pyrosetta-dev/bin/python expected_outputs/mutate_residue_from_command_line.py -t 6 -r TRP
+/home/klimaj/anaconda3/envs/pyrosetta-dev/bin/python expected_outputs/mutate_residue_from_command_line.py -t 8 -r ALA
+/home/klimaj/anaconda3/envs/pyrosetta-dev/bin/python expected_outputs/mutate_residue_from_command_line.py -t 8 -r TRP
+/home/klimaj/anaconda3/envs/pyrosetta-dev/bin/python expected_outputs/mutate_residue_from_command_line.py -t 10 -r ALA
+/home/klimaj/anaconda3/envs/pyrosetta-dev/bin/python expected_outputs/mutate_residue_from_command_line.py -t 10 -r TRP
