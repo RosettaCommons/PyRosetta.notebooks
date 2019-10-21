@@ -1,0 +1,53 @@
+symmetry_name 1jnd_P_32_2_1
+E = 2*VRT_0_0_0_0_base + 1*(VRT_0_0_0_0_base:VRT_4_2_1_0_base) + 1*(VRT_0_0_0_0_base:VRT_4_2_1_n1_base) + 2*(VRT_0_0_0_0_base:VRT_1_1_0_n1_base) + 2*(VRT_0_0_0_0_base:VRT_3_0_n1_0_base) + 2*(VRT_0_0_0_0_base:VRT_5_0_1_0_base)
+anchor_residue 1
+virtual_coordinates_start
+xyz VRT_0_0_0_0 1.000000,0.000000,0.000000 0.000000,1.000000,0.000000 73.875618,49.022105,11.024970
+xyz VRT_0_0_0_0_base 1.000000,0.000000,0.000000 0.000000,1.000000,0.000000 72.875618,48.022105,10.024970
+xyz VRT_4_2_1_0 -0.500000,-0.866025,0.000000 -0.866025,0.500000,0.000000 80.125303,52.630363,48.966363
+xyz VRT_4_2_1_0_base -0.500000,-0.866025,0.000000 -0.866025,0.500000,0.000000 81.491328,52.996388,49.966363
+xyz VRT_4_2_1_n1 -0.500000,-0.866025,0.000000 -0.866025,0.500000,0.000000 80.125303,52.630363,-41.020637
+xyz VRT_4_2_1_n1_base -0.500000,-0.866025,0.000000 -0.866025,0.500000,0.000000 81.491328,52.996388,-40.020637
+xyz VRT_1_1_0_n1 -0.500000,0.866025,0.000000 -0.866025,-0.500000,0.000000 26.952803,39.467109,-18.970697
+xyz VRT_1_1_0_n1_base -0.500000,0.866025,0.000000 -0.866025,-0.500000,0.000000 28.318828,39.101084,-19.970697
+xyz VRT_2_1_1_0 -0.500000,-0.866025,0.000000 0.866025,-0.500000,0.000000 58.689080,3.608258,41.020637
+xyz VRT_2_1_1_0_base -0.500000,-0.866025,0.000000 0.866025,-0.500000,0.000000 58.323054,4.974283,40.020637
+xyz VRT_3_0_n1_0 -0.500000,0.866025,0.000000 0.866025,0.500000,0.000000 58.689080,-3.608258,-11.024970
+xyz VRT_3_0_n1_0_base -0.500000,0.866025,0.000000 0.866025,0.500000,0.000000 58.323054,-4.974283,-10.024970
+xyz VRT_3_1_0_0 -0.500000,0.866025,0.000000 0.866025,0.500000,0.000000 111.861580,88.489214,-11.024970
+xyz VRT_3_1_0_0_base -0.500000,0.866025,0.000000 0.866025,0.500000,0.000000 111.495554,87.123189,-10.024970
+xyz VRT_5_0_1_0 1.000000,0.000000,0.000000 -0.000000,-1.000000,0.000000 20.703118,43.075367,18.970697
+xyz VRT_5_0_1_0_base 1.000000,0.000000,0.000000 -0.000000,-1.000000,0.000000 19.703118,44.075367,19.970697
+xyz VRT_5_1_1_0 1.000000,0.000000,0.000000 -0.000000,-1.000000,0.000000 127.048118,43.075367,18.970697
+xyz VRT_5_1_1_0_base 1.000000,0.000000,0.000000 -0.000000,-1.000000,0.000000 126.048118,44.075367,19.970697
+virtual_coordinates_stop
+connect_virtual JUMP_0_0_0_0_to_subunit VRT_0_0_0_0_base SUBUNIT
+connect_virtual JUMP_4_2_1_0_to_subunit VRT_4_2_1_0_base SUBUNIT
+connect_virtual JUMP_4_2_1_n1_to_subunit VRT_4_2_1_n1_base SUBUNIT
+connect_virtual JUMP_1_1_0_n1_to_subunit VRT_1_1_0_n1_base SUBUNIT
+connect_virtual JUMP_2_1_1_0_to_subunit VRT_2_1_1_0_base SUBUNIT
+connect_virtual JUMP_3_0_n1_0_to_subunit VRT_3_0_n1_0_base SUBUNIT
+connect_virtual JUMP_3_1_0_0_to_subunit VRT_3_1_0_0_base SUBUNIT
+connect_virtual JUMP_5_0_1_0_to_subunit VRT_5_0_1_0_base SUBUNIT
+connect_virtual JUMP_5_1_1_0_to_subunit VRT_5_1_1_0_base SUBUNIT
+connect_virtual JUMP_0_0_0_0_to_com VRT_0_0_0_0 VRT_0_0_0_0_base
+connect_virtual JUMP_4_2_1_0_to_com VRT_4_2_1_0 VRT_4_2_1_0_base
+connect_virtual JUMP_4_2_1_n1_to_com VRT_4_2_1_n1 VRT_4_2_1_n1_base
+connect_virtual JUMP_1_1_0_n1_to_com VRT_1_1_0_n1 VRT_1_1_0_n1_base
+connect_virtual JUMP_2_1_1_0_to_com VRT_2_1_1_0 VRT_2_1_1_0_base
+connect_virtual JUMP_3_0_n1_0_to_com VRT_3_0_n1_0 VRT_3_0_n1_0_base
+connect_virtual JUMP_3_1_0_0_to_com VRT_3_1_0_0 VRT_3_1_0_0_base
+connect_virtual JUMP_5_0_1_0_to_com VRT_5_0_1_0 VRT_5_0_1_0_base
+connect_virtual JUMP_5_1_1_0_to_com VRT_5_1_1_0 VRT_5_1_1_0_base
+connect_virtual JUMP_4_2_1_0 VRT_0_0_0_0 VRT_4_2_1_0
+connect_virtual JUMP_4_2_1_n1 VRT_0_0_0_0 VRT_4_2_1_n1
+connect_virtual JUMP_1_1_0_n1 VRT_0_0_0_0 VRT_1_1_0_n1
+connect_virtual JUMP_2_1_1_0 VRT_0_0_0_0 VRT_2_1_1_0
+connect_virtual JUMP_3_0_n1_0 VRT_0_0_0_0 VRT_3_0_n1_0
+connect_virtual JUMP_3_1_0_0 VRT_0_0_0_0 VRT_3_1_0_0
+connect_virtual JUMP_5_0_1_0 VRT_0_0_0_0 VRT_5_0_1_0
+connect_virtual JUMP_5_1_1_0 VRT_0_0_0_0 VRT_5_1_1_0
+set_dof JUMP_0_0_0_0_to_com x y z
+set_dof JUMP_0_0_0_0_to_subunit angle_x angle_y angle_z
+set_jump_group JUMPGROUP1  JUMP_0_0_0_0_to_subunit JUMP_4_2_1_0_to_subunit JUMP_4_2_1_n1_to_subunit JUMP_1_1_0_n1_to_subunit JUMP_2_1_1_0_to_subunit JUMP_3_0_n1_0_to_subunit JUMP_3_1_0_0_to_subunit JUMP_5_0_1_0_to_subunit JUMP_5_1_1_0_to_subunit
+set_jump_group JUMPGROUP2  JUMP_0_0_0_0_to_com JUMP_4_2_1_0_to_com JUMP_4_2_1_n1_to_com JUMP_1_1_0_n1_to_com JUMP_2_1_1_0_to_com JUMP_3_0_n1_0_to_com JUMP_3_1_0_0_to_com JUMP_5_0_1_0_to_com JUMP_5_1_1_0_to_com
