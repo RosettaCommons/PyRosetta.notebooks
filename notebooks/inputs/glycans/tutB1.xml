@@ -41,6 +41,7 @@
 	<MOVERS>
         	<SetupForSymmetry name="setup_symm" definition="%%symmdef%%"/>
         	<LoadDensityMap name="loaddens" mapfile="%%map%%"/>
+        	<SetupForDensityScoring name="setupdens"/>
 		<RunSimpleMetrics name="native_metrics" metrics="fit_native" prefix="native_" />
 		<RunSimpleMetrics name="selections" metrics="layers,pymol_tree,pymol_branch,pdb_glycans,pdb_branch" />
 		<RunSimpleMetrics name="counts"     metrics="n_tree,n_layer01,n_fits6,n_fits8"/>
@@ -50,8 +51,8 @@
 	<APPLY_TO_POSE>
 	</APPLY_TO_POSE>
 	<PROTOCOLS>
-		<Add mover_name="setup_symm" />
 		<Add mover_name="loaddens"/>
+		<Add mover_name="setupdens" />
 		<Add mover_name="selections"/>
 		<Add mover_name="native_metrics" />
 		<Add mover_name="counts"/>
