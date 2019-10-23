@@ -1,0 +1,21 @@
+#Rotamers/packing
+-ex1
+-ex2
+-use_input_sc
+
+#Minimization
+#-nblist_autoupdate
+-ideal_sugars
+
+#Common
+-jd2:delete_old_poses
+-other_pose_to_scorefile
+
+
+#Glycan
+-include_sugars
+-auto_detect_glycan_connections
+-alternate_3_letter_codes pdb_sugar
+-maintain_links
+-write_pdb_link_records
+-write_glycan_pdb_codes
