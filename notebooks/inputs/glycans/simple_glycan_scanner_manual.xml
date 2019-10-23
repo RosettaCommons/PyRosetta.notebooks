@@ -1,0 +1,79 @@
+<ROSETTASCRIPTS>
+    <SCOREFXNS>
+    </SCOREFXNS>
+    <RESIDUE_SELECTORS>
+        <Index name="select" resnums="%%start%%" />
+        <Index name="motif" resnums="%%start%%-%%end%%" />
+        <Neighborhood name="nbrhood" selector="motif"/>
+        <Not name="others" selector="nbrhood" />
+    </RESIDUE_SELECTORS>
+    <SCOREFXNS>
+        <ScoreFunction name="cart" weights="ref2015_cart" symmetric="0">
+            <!--Reweight scoretype="dihedral_constraint" weight=".3" /!-->
+            <Reweight scoretype="coordinate_constraint" weight="1.0"/>
+        </ScoreFunction>
+    </SCOREFXNS>
+    <TASKOPERATIONS>
+        <OperateOnResidueSubset name="turn_off_others" selector="others">
+            <PreventRepackingRLT/> 
+        </OperateOnResidueSubset>
+        <RestrictToRepacking name="rtrp"/>
+    </TASKOPERATIONS>
+    <MOVE_MAP_FACTORIES>
+        <MoveMapFactory name="fr_mm_factory" bb="0" chi="0">
+            <Chi residue_selector="nbrhood" enable="1"/>
+            <Backbone residue_selector="nbrhood" enable="1" />
+        </MoveMapFactory>
+    </MOVE_MAP_FACTORIES>
+    <SIMPLE_METRICS>
+        <TimingProfileMetric name="timing"/>
+        <TotalEnergyMetric name="total_energy_delta" use_native="1"/>
+        <TotalEnergyMetric name="total_energy" use_native="0"/>
+        <CompositeEnergyMetric name="composite_energy" use_native="1"/>
+        <SelectedResiduesMetric name="selection" residue_selector="select"/>
+		<SelectedResiduesMetric name="rosetta_sele" residue_selector="select" rosetta_numbering="1"/>
+		<SelectedResiduesPyMOLMetric name="pymol_selection" residue_selector="select" />
+        <SelectedResiduesPyMOLMetric name="region" residue_selector="nbrhood" />
+        <SequenceMetric name="sequence" residue_selector="motif" />
+        <SasaMetric name="sasa" residue_selector="select" />
+        <RMSDMetric name="rmsd" use_native="1" rmsd_type="rmsd_protein_bb_heavy"/>
+    </SIMPLE_METRICS>
+    <MOVERS>
+        <CreateSequenceMotifMover name="motif_creator" residue_selector="select" motif="%%motif%%" pack_neighbors="1"/>
+        <SimpleGlycosylateMover name="glycosylate" positions="%%start%%" glycosylation="man5" idealize_glycosylation="0" strip_existing="1"/>
+        <GlycanTreeRelax name="model" layer_size="2" window_size="1" rounds="1" refine="false" glycan_relax_rounds="%%rounds%%" />
+        <RunSimpleMetrics name="selections" metrics="rosetta_sele,pymol_selection,sequence" />
+        <FastRelax name="cart_nbr_fr" task_operations="rtrp,turn_off_others" movemap_factory="fr_mm_factory" cartesian="1" scorefxn="cart"/>
+        <RunSimpleMetrics name="pre_metrics" metrics="sasa,total_energy" prefix="pre_" />
+        <RunSimpleMetrics name="post_sequon_metrics" metrics="total_energy_delta,sequence,sasa,timing,rmsd" prefix="post-sequon_" />
+        <RunSimpleMetrics name="post_prerefine_metrics" metrics="total_energy_delta,sequence,sasa,rmsd,region" prefix="post-prerefine_" />
+        <RunSimpleMetrics name="post_modeling_metrics" metrics="total_energy_delta,timing,rmsd" prefix="post-model_" />
+        <!--AddConstraints name="add_dih_csts">
+            <DihedralConstraintGenerator name="dih_cst_phi" dihedral="phi" residue_selector="nbrhood" />
+            <DihedralConstraintGenerator name="dih_cst_psi" dihedral="psi" residue_selector="nbrhood" />
+            <DihedralConstraintGenerator name="dih_cst_omega" dihedral="omega" residue_selector="nbrhood" />
+        </AddConstraints>
+        <RemoveConstraints name="rm_csts" constraint_generators="dih_cst_phi,dih_cst_psi,dih_cst_omega" /-->
+
+        <AddConstraintsToCurrentConformationMover name="apply_coordinate_constraints" cst_weight="1.0" use_distance_cst="False" coord_dev="0.5" bound_width="0" CA_only="True" bb_only="False" />
+        <ClearConstraintsMover name="remove_coordinate_constraints" />
+
+    </MOVERS>
+    <PROTOCOLS>
+        <Add mover="selections" />
+        <Add mover="pre_metrics" />
+        <Add mover="apply_coordinate_constraints" />
+        <Add mover="cart_nbr_fr" />
+        <Add mover="remove_coordinate_constraints" />
+        <Add mover="post_prerefine_metrics" />
+        <Add mover="motif_creator"/>
+        <Add mover="apply_coordinate_constraints" />
+        <Add mover="cart_nbr_fr" />
+        <Add mover="remove_coordinate_constraints" />
+        <Add mover="post_sequon_metrics"/>
+        <Add mover="glycosylate"/>
+        <Add mover="model" />
+        <Add mover="post_modeling_metrics" />
+    </PROTOCOLS>
+</ROSETTASCRIPTS>
+

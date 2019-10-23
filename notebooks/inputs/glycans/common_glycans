@@ -1,0 +1,23 @@
+#Input
+-ignore_unrecognized_res
+-ignore_zero_occupancy false
+-load_PDB_components false
+
+#Output
+-pdb_comments
+-scorefile_format json
+-skip_connect_info
+
+#Rotamers/packing (Off for speed)
+#-ex1
+#-ex2
+-use_input_sc
+
+#Minimization (Off for speed)
+#-nblist_autoupdate
+
+#Common
+-jd2:delete_old_poses
+-other_pose_to_scorefile
+
+-include_sugars
