@@ -1,0 +1,24 @@
+name: PyRosetta.notebooks
+channels:
+  - conda-forge
+  - defaults
+  - https://USERNAME:PASSWORD@conda.graylab.jhu.edu
+dependencies:
+  - biopython
+  - cloudpickle=0.7.0
+  - dask=1.1.1
+  - dask-jobqueue=0.4.1
+  - distributed=1.25.3
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - pyrosetta
+  - python=3.6
+  - python-blosc
+  - python-graphviz
+  - scipy
+  - seaborn
+  - pip:
+      - py3Dmol
