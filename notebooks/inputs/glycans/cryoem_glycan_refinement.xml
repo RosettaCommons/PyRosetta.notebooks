@@ -1,0 +1,36 @@
+<ROSETTASCRIPTS>
+    <TASKOPERATIONS>
+    </TASKOPERATIONS>
+    <SCOREFXNS>
+        <ScoreFunction name="dens" weights="beta_nov16_cart" symmetric="0">
+	        <Reweight scoretype="atom_pair_constraint" weight="20.0"/>
+            <Reweight scoretype="cart_bonded_length" weight="0.5"/>
+            <Reweight scoretype="fa_rep" weight="0.05"/>
+            <Reweight scoretype="cart_bonded_torsion" weight="0.5"/>
+            <Reweight scoretype="cart_bonded_angle" weight="1.0"/>
+            <Reweight scoretype="pro_close" weight="0.0"/>
+            <Reweight scoretype="cart_bonded_ring" weight="1.0"/>
+			<Reweight scoretype="elec_dens_fast" weight="35.0"/>
+            <Set scale_sc_dens_byres="R:0.66,K:0.66,E:0.66,D:0.66,M:0.66,C:0.71,Q:0.71,H:0.71,N:0.71,T:0.71,S:0.71,Y:0.78,W:0.78,A:0.78,F:0.78,P:0.78,I:0.78,L:0.78,V:0.78"/>
+        </ScoreFunction>
+    <MOVERS>
+        <IdealizeAnomericHydrogens name="ideal"/>
+        <SetupForDensityScoring name="setup_dens"/>
+        <MinMover name="min" scorefxn="dens" cartesian="True" chi="True" bb="True"/>
+	    <FastRelax name="relaxcart" scorefxn="dens"  repeats="1" cartesian="1"/>
+	
+    </MOVERS>
+    <PROTOCOLS>
+        <Add mover="setup_dens"/>
+        <Add mover="min"/>
+        <Add mover="ideal"/>
+        <Add mover="relaxcart"/>
+        <Add mover="min"/>
+        <Add mover="relaxcart"/>
+        <Add mover="relaxcart"/>
+        <Add mover="relaxcart"/>
+        <Add mover="relaxcart"/>
+    </PROTOCOLS>
+    <OUTPUT scorefxn="dens"/>
+
+</ROSETTASCRIPTS>
