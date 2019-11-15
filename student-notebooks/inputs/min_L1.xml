@@ -1,0 +1,30 @@
+<ROSETTASCRIPTS>
+	<SCOREFXNS>
+	</SCOREFXNS>
+	<RESIDUE_SELECTORS>
+		<CDR name="L1" cdrs="L1"/>
+	</RESIDUE_SELECTORS>
+	<MOVE_MAP_FACTORIES>
+		<MoveMapFactory name="movemap_L1" bb="0" chi="0">
+			<Backbone residue_selector="L1" />
+			<Chi residue_selector="L1" />
+		</MoveMapFactory>
+	</MOVE_MAP_FACTORIES>
+	<SIMPLE_METRICS>
+		<TimingProfileMetric name="timing" />
+		<SelectedResiduesMetric name="rosetta_sele" residue_selector="L1" rosetta_numbering="1"/>
+		<SelectedResiduesPyMOLMetric name="pymol_selection" residue_selector="L1" />
+		<SequenceMetric name="sequence" residue_selector="L1" />
+		<SecondaryStructureMetric name="ss" residue_selector="L1" />
+	</SIMPLE_METRICS>
+	<MOVERS>
+		<MinMover name="min_mover" movemap_factory="movemap_L1" tolerance=".1" /> 
+		<RunSimpleMetrics name="run_metrics1" metrics="pymol_selection,sequence,ss,rosetta_sele" prefix="m1_" />
+		<RunSimpleMetrics name="run_metrics2" metrics="timing,ss" prefix="m2_" />
+	</MOVERS>
+	<PROTOCOLS>
+		<Add mover_name="run_metrics1"/>
+		<Add mover_name="min_mover" />
+		<Add mover_name="run_metrics2" />
+	</PROTOCOLS>
+</ROSETTASCRIPTS>

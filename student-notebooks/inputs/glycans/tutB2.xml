@@ -1,0 +1,133 @@
+<ROSETTASCRIPTS>
+	<SCOREFXNS>
+	</SCOREFXNS>
+
+	NEEDED FOR CACHING density fit info
+	<RESIDUE_SELECTORS>
+		<Glycan name="tree" branch="%%branch%%" include_root="0" />
+	</RESIDUE_SELECTORS>
+	<SIMPLE_METRICS>
+		<PerResidueDensityFitMetric name="fit_native" residue_selector="tree" output_as_pdb_nums="1" sliding_window_size="1" match_res="1"/>
+	</SIMPLE_METRICS>
+	END Density Fit Setup
+
+	<RESIDUE_SELECTORS>
+		
+		<Index name="root" resnums="%%branch%%" />
+		<GlycanLayerSelector name="first_layer" start="0" end="1"/>
+		<And name="layer01" selectors="tree,first_layer" />
+		<DensityFitResidueSelector name="fits8" den_fit_metric="fit_native" cutoff=".8" use_cache="1" fail_on_missing_cache="1" prefix="native_"/>
+		<DensityFitResidueSelector name="fits6" den_fit_metric="fit_native" cutoff=".6" use_cache="1" fail_on_missing_cache="1" prefix="native_"/>
+		<DensityFitResidueSelector name="fits4" den_fit_metric="fit_native" cutoff=".4" use_cache="1" fail_on_missing_cache="1" prefix="native_"/>
+
+		<Neighborhood name="nbrhood" selector="tree"/>
+        	<Not name="others" selector="nbrhood" />
+	</RESIDUE_SELECTORS>
+    	<MOVE_MAP_FACTORIES>
+        	<MoveMapFactory name="fr_mm_factory" bb="0" chi="0" cartesian="1">
+            		<Chi residue_selector="nbrhood" enable="1"/>
+            		<Backbone residue_selector="tree" enable="1" />
+            		<Chi residue_selector="tree" enable="1" />
+        	</MoveMapFactory>
+    	</MOVE_MAP_FACTORIES>
+    	<SCOREFXNS>
+        	<ScoreFunction name="cart" weights="ref2015_cart" symmetric="0">
+            		<!--Reweight scoretype="dihedral_constraint" weight=".3" /!-->
+            		<Reweight scoretype="elec_dens_fast"          weight="35"/>
+            		<Reweight scoretype="atom_pair_constraint"    weight="20.0" />
+            		<Reweight scoretype="cart_bonded_length"      weight=".5"  />
+            		<Reweight scoretype="cart_bonded_torsion"     weight=".5"  />
+            		<Reweight scoretype="cart_bonded_angle"       weight="1.0" />
+            		<Reweight scoretype="cart_bonded_ring"        weight="1.0" />
+            		<Reweight scoretype="fa_intra_rep_nonprotein" weight="1.0" />
+            		<Reweight scoretype="fa_intra_atr_nonprotein" weight="1.0" />
+			<Set scale_sc_dens_byres="R:0.66,K:0.66,E:0.66,D:0.66,M:0.66,C:0.71,Q:0.71,H:0.71,N:0.71,T:0.71,S:0.71,Y:0.78,W:0.78,A:0.78,F:0.78,P:0.78,I:0.78,L:0.78,V:0.78"/>
+        	</ScoreFunction>
+        	<ScoreFunction name="cart_symm" weights="ref2015_cart" symmetric="1">
+                <!--Reweight scoretype="dihedral_constraint" weight=".3" /!-->
+                	<Reweight scoretype="elec_dens_fast"          weight="35"/>
+                	<Reweight scoretype="atom_pair_constraint"    weight="20.0" />
+                	<Reweight scoretype="cart_bonded_length"      weight=".5"  />
+                	<Reweight scoretype="cart_bonded_torsion"     weight=".5"  />
+                	<Reweight scoretype="cart_bonded_angle"       weight="1.0" />
+                	<Reweight scoretype="cart_bonded_ring"        weight="1.0" />
+                	<Reweight scoretype="fa_intra_rep_nonprotein" weight="1.0" />
+                	<Reweight scoretype="fa_intra_atr_nonprotein" weight="1.0" />
+ 			<Set scale_sc_dens_byres="R:0.66,K:0.66,E:0.66,D:0.66,M:0.66,C:0.71,Q:0.71,H:0.71,N:0.71,T:0.71,S:0.71,Y:0.78,W:0.78,A:0.78,F:0.78,P:0.78,I:0.78,L:0.78,V:0.78"/>
+        	</ScoreFunction>
+	</SCOREFXNS>
+	<TASKOPERATIONS>
+        	<OperateOnResidueSubset name="turn_off_others" selector="others">
+ 			<PreventRepackingRLT/> 
+        	</OperateOnResidueSubset>
+        	<RestrictToRepacking name="rtrp"/>
+	</TASKOPERATIONS>
+
+    	<SIMPLE_METRICS>
+        	<RMSDMetric  name="rmsd"         use_native="1" rmsd_type="rmsd_all_heavy"         residue_selector="tree"/>
+        	<RMSDMetric  name="rmsd_layer01" use_native="1" rmsd_type="rmsd_all_heavy"         residue_selector="layer01" custom_type="layer01"/>
+        	
+        	<RMSDMetric  name="rmsd_aligned"         use_native="1" rmsd_type="rmsd_all_heavy" residue_selector="tree"    custom_type="aln"                  super="1"/>
+        	<RMSDMetric  name="rmsd_aligned_layer01" use_native="1" rmsd_type="rmsd_all_heavy" residue_selector="layer01" custom_type="layer12_aln"  super="1"/>
+        	
+        	<PerResidueRMSDMetric name="rmsd_rsd"     use_native="1" rmsd_type="rmsd_all_heavy" residue_selector="tree" output_as_pdb_nums="1"/>
+        	<PerResidueRMSDMetric name="rmsd_aligned_rsd"     use_native="1" rmsd_type="rmsd_all_heavy" residue_selector="tree" output_as_pdb_nums="1" super="1" custom_type="aln"/>
+
+        	<TimingProfileMetric name="timing" />
+
+        	<SelectedResidueCountMetric name="n_tree" custom_type="tree_size" residue_selector="tree"/>
+        	<SelectedResidueCountMetric name="n_fits8" custom_type="fit8" residue_selector="fits8"/>
+        	<SelectedResidueCountMetric name="n_fits6" custom_type="fit6" residue_selector="fits6"/>
+        	<SelectedResidueCountMetric name="n_fits4" custom_type="fit4" residue_selector="fits4"/>
+        	<SelectedResidueCountMetric name="n_layer01" custom_type="layer01" residue_selector="layer01"/>
+
+        	<RMSDMetric name="rmsd_fits8" use_native="1" custom_type="fit8" rmsd_type="rmsd_all_heavy" residue_selector="fits8"/>
+        	<RMSDMetric name="rmsd_fits6" use_native="1" custom_type="fit6" rmsd_type="rmsd_all_heavy" residue_selector="fits6"/>
+        	<RMSDMetric name="rmsd_fits4" use_native="1" custom_type="fit4" rmsd_type="rmsd_all_heavy" residue_selector="fits4"/>
+
+        	<PerResidueGlycanLayerMetric   name="layers"         residue_selector="tree" output_as_pdb_nums="1"/>
+        	<SelectedResiduesPyMOLMetric   name="pymol_tree"   residue_selector="tree"   custom_type="glycans"/>
+        	<SelectedResiduesPyMOLMetric   name="pymol_branch" residue_selector="root"   custom_type="branch"/>
+        	<SelectedResiduesMetric        name="pdb_glycans"  residue_selector="tree"   rosetta_numbering="0" custom_type="glycans"/>
+        	<SelectedResiduesMetric        name="pdb_branch"   residue_selector="root"   rosetta_numbering="0" custom_type="branch"/>
+
+        	<TotalEnergyMetric name="total" />
+        	<ProtocolSettingsMetric name="protocol" get_user_options="0" limit_to_options="rounds,glycan_sampler_rounds,window_size,layer_size,quench_mode"/>
+        	
+    	</SIMPLE_METRICS>
+	<MOVERS>
+        	<SetupForSymmetry name="setup_symm" definition="%%symmdef%%"/>
+        	<LoadDensityMap name="loaddens" mapfile="%%map%%"/>
+        <SetupForDensityScoring name="setupdens"/>
+		<RunSimpleMetrics name="native_metrics" metrics="fit_native,total" prefix="native_" />
+		<RunSimpleMetrics name="selections" metrics="layers,pymol_tree,pymol_branch,pdb_glycans,pdb_branch" />
+		<RunSimpleMetrics name="counts"     metrics="n_tree,n_layer01,n_fits6,n_fits8"/>
+		<RunSimpleMetrics name="timings"    metrics="timing" /> 
+		<RunSimpleMetrics name="rmsd"       metrics="rmsd,rmsd_layer01,rmsd_rsd"/>
+		<RunSimpleMetrics name="rmsd_fits"  metrics="rmsd_fits8,rmsd_fits6"/>
+		<RunSimpleMetrics name="energies" metrics="total"/>
+		<MinMover name="min" scorefxn="cart_symm" cartesian="True"                movemap_factory="fr_mm_factory"/>
+		<FastRelax name="cart_nbr_fr" task_operations="rtrp,turn_off_others" movemap_factory="fr_mm_factory" cartesian="1" scorefxn="cart_symm"/>
+		<IdealizeAnomericHydrogens name="idealize"/>
+
+	</MOVERS>
+	<APPLY_TO_POSE>
+	</APPLY_TO_POSE>
+	<PROTOCOLS>
+		<Add mover_name="setup_symm" />
+		<Add mover_name="loaddens"/>
+        <Add mover_name="setupdens"/>
+		<Add mover_name="selections"/>
+		<Add mover_name="native_metrics" />
+		<Add mover_name="counts"/>
+		<Add mover_name="min" />
+		<Add mover_name="idealize"/>
+		<Add mover_name="min" />
+		<Add mover_name="cart_nbr_fr" />
+		<Add mover_name="energies" />
+		<Add mover_name="rmsd"/>
+		<Add mover_name="rmsd_fits" />
+		<Add mover_name="timings"/>
+	</PROTOCOLS>
+	<OUTPUT scorefxn="cart_symm"/>
+</ROSETTASCRIPTS>
