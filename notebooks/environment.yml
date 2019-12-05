@@ -6,19 +6,19 @@ channels:
 dependencies:
   - biopython
   - cloudpickle=0.7.0
-  - dask=1.1.1
+  - dask=1.2.2
   - dask-jobqueue=0.4.1
-  - distributed=1.25.3
+  - distributed=1.28.1
   - jupyter
   - matplotlib
   - numpy
   - pandas
   - pip
+  - py3dmol=0.8.0
   - pyrosetta
   - python=3.6
   - python-blosc
   - python-graphviz
   - scipy
   - seaborn
-  - pip:
-      - py3Dmol
+  
