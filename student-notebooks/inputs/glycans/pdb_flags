@@ -1,0 +1,8 @@
+
+#Glycan
+-include_sugars
+-auto_detect_glycan_connections
+-alternate_3_letter_codes pdb_sugar
+-maintain_links
+-write_pdb_link_records
+-write_glycan_pdb_codes
