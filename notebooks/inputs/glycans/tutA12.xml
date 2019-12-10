@@ -1,0 +1,36 @@
+<ROSETTASCRIPTS>
+    <SCOREFXNS>
+    </SCOREFXNS>
+    <RESIDUE_SELECTORS>
+        <Index name="select" resnums="%%start%%" />
+        <Index name="motif" resnums="%%start%%-%%end%%" />
+        <Neighborhood name="nbrhood" selector="motif"/>
+        <Not name="others" selector="nbrhood" />
+    </RESIDUE_SELECTORS>
+    <SIMPLE_METRICS>
+        <TimingProfileMetric name="timing"/>
+        <TotalEnergyMetric name="total_energy_delta" use_native="1" custom_type="native_delta"/>
+        <TotalEnergyMetric name="total_energy" use_native="0"/>
+        <CompositeEnergyMetric name="composite_energy" use_native="1"/>
+        <SelectedResiduesMetric name="selection" residue_selector="select"/>
+		<SelectedResiduesMetric name="rosetta_sele" residue_selector="select" rosetta_numbering="1"/>
+		<SelectedResiduesPyMOLMetric name="pymol_selection" residue_selector="select" />
+        <SelectedResiduesPyMOLMetric name="region" residue_selector="nbrhood" />
+        <SequenceMetric name="sequence" residue_selector="motif" />
+        <SasaMetric name="sasa" residue_selector="select" />
+        <RMSDMetric name="rmsd" use_native="1" rmsd_type="rmsd_protein_bb_heavy"/>
+    </SIMPLE_METRICS>
+    <MOVERS>
+        <CreateSequenceMotifMover name="motif_creator" residue_selector="select" motif="N[-]T" pack_neighbors="1"/>
+        <RunSimpleMetrics name="selections" metrics="rosetta_sele,pymol_selection,sequence" />
+        <RunSimpleMetrics name="pre_metrics" metrics="sasa,total_energy" prefix="pre_" />
+        <RunSimpleMetrics name="post_sequon_metrics" metrics="total_energy_delta,sequence,sasa,timing,rmsd" prefix="post-sequon_" />
+    </MOVERS>
+    <PROTOCOLS>
+        <Add mover="selections" />
+        <Add mover="pre_metrics" />
+        <Add mover="motif_creator"/>
+        <Add mover="post_sequon_metrics"/>
+    </PROTOCOLS>
+</ROSETTASCRIPTS>
+
