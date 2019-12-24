@@ -2,7 +2,6 @@ name: PyRosetta.notebooks
 channels:
   - conda-forge
   - defaults
-  - https://USERNAME:PASSWORD@conda.graylab.jhu.edu
 dependencies:
   - biopython
   - cloudpickle=0.7.0
