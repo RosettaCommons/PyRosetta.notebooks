@@ -2,23 +2,32 @@ name: PyRosetta.notebooks
 channels:
   - conda-forge
   - defaults
-  - https://USERNAME:PASSWORD@conda.graylab.jhu.edu
+  - rmg
+  - rdkit
 dependencies:
+  - python=3.7
+  - python-blosc
+  - python-graphviz
   - biopython
   - cloudpickle=0.7.0
   - dask=1.2.2
   - dask-jobqueue=0.4.1
   - distributed=1.28.1
+  - ipython
   - jupyter
+  - ipykernel
+  - ipyparallel
+  - nb_conda_kernels
+  - jupyter_contrib_nbextensions
+  - virtualenv
   - matplotlib
   - numpy
   - pandas
   - pip
+  - xlrd
   - py3dmol=0.8.0
   - pyrosetta
-  - python=3.6
   - python-blosc
   - python-graphviz
   - scipy
   - seaborn
-  
