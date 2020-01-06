@@ -58,7 +58,7 @@ _Step 3:_ When you are done making changes, run make-student-nb.bash to automati
 - [2.5 Protein Geometry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.05-Protein-Geometry.ipynb)
 - [2.6 Visualization with the `PyMOLMover`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.06-Visualization-and-PyMOL-Mover.ipynb)
 - [2.7 RosettaScripts in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-RosettaScripts-in-PyRosetta.ipynb)
-- [2.7 Visualization and `pyrosetta.distributed.viewer`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-Visualization-and-pyrosetta.distributed.viewer.ipynb)
+- [2.8 Visualization and `pyrosetta.distributed.viewer`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-Visualization-and-pyrosetta.distributed.viewer.ipynb)
 
 ### [Chapter 3.0 Rosetta Energy Score Functions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.00-Rosetta-Energy-Score-Functions.ipynb)
 - [3.1 Score Function Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.01-Score-Function-Basics.ipynb)
@@ -71,6 +71,7 @@ _Step 3:_ When you are done making changes, run make-student-nb.bash to automati
 
 ### [Chapter 5.0 Structure Refinement](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/05.00-Structure-Refinement.ipynb)
 - [5.1 High-Resolution Movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/05.01-High-Res-Movers.ipynb)
+- [5.2 Refinement Protocol](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/05.02-Refinement-Protocol.ipynb)
 
 ### [Chapter 6.0 Packing & Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.00-Introduction-to-Packing-and-Design.ipynb)
 - [6.1 Side Chain Conformations and Dunbrack Energies](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.01-Side-Chain-Conformations-and-Dunbrack-Energies.ipynb)
@@ -83,23 +84,28 @@ _Step 3:_ When you are done making changes, run make-student-nb.bash to automati
 
 ### [Chapter 7.0 Docking](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.00-Docking.ipynb)
 - [7.1 Fast Fourier Transform Based Docking via ZDOCK](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.01-Fast-Fourier-Transform-Based-Docking-via-ZDOCK.ipynb)
+- [7.2 Docking Moves in Rosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.02-Docking-Moves-in-Rosetta.ipynb)
 - [7.3 Ligand Refinement in PyRosetta (a.k.a. High-Resolution Local Docking) Using the `ligand.wts` Scorefunction](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.03-Ligand-Docking-PyRosetta.ipynb)
 - [7.4 Global Ligand Docking using `XMLObjects` Using the `ref2015.wts` Scorefunction](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.04-Ligand-Docking-XMLObjects.ipynb)
 - [7.5 `GALigandDock` Protocol with `pyrosetta.distributed` Using the `beta_cart.wts` Scorefunction](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.05-Ligand-Docking-pyrosetta.distributed.ipynb)
 
-### [Chapter 8.0 Working With Symmetry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/08.00-Working-With-Symmetry.ipynb)
+### [Chapter 9.0 Working With Symmetry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Working-With-Symmetry.ipynb)
 
-### [Chapter 10.0 Working With Antibodies](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/10.00-Working-With-Antibodies.ipynb)
-- [10.1 RosettaAntibody Framework](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/10.01-RosettaAntibody-Framework-and-SimpleMetrics.ipynb)
-- [10.2 RosettaAntibodyDesign](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/10.02-RosettaAntibodyDesign-RAbD.ipynb)
+### [Chapter 10.0 Working With Density](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/10.00-Working-With-Density.ipynb)
 
-### [Chapter 11.0 PyData Integration](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/11.00-PyData-integration.ipynb)
+### [Chapter 11.0 Working With Antibodies](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/11.00-Working-With-Antibodies.ipynb)
+- [11.1 RosettaAntibody Framework](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/11.01-RosettaAntibody-Framework-and-SimpleMetrics.ipynb)
+- [11.2 RosettaAntibodyDesign](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/11.02-RosettaAntibodyDesign-RAbD.ipynb)
 
-### [Chapter 11.0 RosettaCarbohydrates](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/11.00-RosettaCarbohydrates-Working-with-Glycans.ipynb)
-- [11.1 RosettaCarbohydrates: Trees, Selectors and Movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/11.01-Glycan-Trees-Selectors-and-Movers.ipynb)
-- [11.2 RosettaCarbohydrates: Modeling and Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/11.02-Glycan-Modeling-and-Design.ipynb)
-- [11.3 Example of Using PyRosetta with GNU Parallel](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/11.03-GNU-Parallel-Via-Slurm.ipynb)
-- [11.4 Examples Using the `dask` Module](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/11.04-dask.delayed-Via-Slurm.ipynb)
-- [11.5 Part I: Parallelized Global Ligand Docking with `pyrosetta.distributed`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/11.05-Ligand-Docking-dask.ipynb)
+### [Chapter 12.0 RosettaCarbohydrates](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/12.00-RosettaCarbohydrates-Working-with-Glycans.ipynb)
+- [12.1 RosettaCarbohydrates: Trees, Selectors and Movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/12.01-Glycan-Trees-Selectors-and-Movers.ipynb)
+- [12.2 RosettaCarbohydrates: Modeling and Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/12.02-Glycan-Modeling-and-Design.ipynb)
 
-### [Chapter 12.0 RNA in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/12.00-RNA-Basics.ipynb)
+### [Chapter 13.0 RNA in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/13.00-RNA-Basics.ipynb)
+
+### [Chapter 15.0 Running Rosetta in Parellel](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/15.00-Running-PyRosetta-in-Parellel.ipynb)
+- [15.1 Distributed analysis example: exhaustive ddG PSSM](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/15.01-PyData-ddG-pssm.ipynb)
+- [15.2 Distributed computation example: miniprotein design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/15.02-PyData-miniprotein-design.ipynb)
+- [15.3 Example of Using PyRosetta with GNU Parallel](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/15.03-GNU-Parallel-Via-Slurm.ipynb)
+- [15.4 Examples Using the `dask` Module](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/15.04-dask.delayed-Via-Slurm.ipynb)
+- [15.5 Part I: Parallelized Global Ligand Docking with `pyrosetta.distributed`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/15.05-Ligand-Docking-dask.ipynb)
