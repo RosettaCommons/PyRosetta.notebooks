@@ -1,0 +1,7 @@
+repeat %%nrepeats%%
+ramp_repack_min 0.079 0.01     1.0
+ramp_repack_min 0.295 0.01     0.5
+ramp_repack_min 0.577 0.01     0.0
+ramp_repack_min 1     0.00001  0.0
+accept_to_best
+endrepeat

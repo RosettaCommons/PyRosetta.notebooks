@@ -1,0 +1,61 @@
+<ROSETTASCRIPTS>
+	<SCOREFXNS>
+	</SCOREFXNS>
+
+	NEEDED FOR CACHING density fit info
+	<RESIDUE_SELECTORS>
+		<Glycan name="tree" branch="%%branch%%" include_root="0" />
+	</RESIDUE_SELECTORS>
+	<SIMPLE_METRICS>
+		<PerResidueDensityFitMetric name="fit_native" residue_selector="tree" output_as_pdb_nums="1" sliding_window_size="1" match_res="1"/>
+	</SIMPLE_METRICS>
+	END Density Fit Setup
+
+	<RESIDUE_SELECTORS>
+		
+		<Index name="root" resnums="%%branch%%" />
+		<GlycanLayerSelector name="first_layer" start="0" end="1"/>
+		<And name="layer01" selectors="tree,first_layer" />
+		<DensityFitResidueSelector name="fits8" den_fit_metric="fit_native" cutoff=".8" use_cache="1" fail_on_missing_cache="1" prefix="native_"/>
+		<DensityFitResidueSelector name="fits6" den_fit_metric="fit_native" cutoff=".6" use_cache="1" fail_on_missing_cache="1" prefix="native_"/>
+		<DensityFitResidueSelector name="fits4" den_fit_metric="fit_native" cutoff=".4" use_cache="1" fail_on_missing_cache="1" prefix="native_"/>
+	</RESIDUE_SELECTORS>
+
+    	<SIMPLE_METRICS>
+
+        	<TimingProfileMetric name="timing" />
+
+        	<SelectedResidueCountMetric name="n_tree" custom_type="tree_size" residue_selector="tree"/>
+        	<SelectedResidueCountMetric name="n_fits8" custom_type="fit8" residue_selector="fits8"/>
+        	<SelectedResidueCountMetric name="n_fits6" custom_type="fit6" residue_selector="fits6"/>
+        	<SelectedResidueCountMetric name="n_fits4" custom_type="fit4" residue_selector="fits4"/>
+        	<SelectedResidueCountMetric name="n_layer01" custom_type="layer01" residue_selector="layer01"/>
+
+        	<PerResidueGlycanLayerMetric   name="layers"         residue_selector="tree" output_as_pdb_nums="1"/>
+        	<SelectedResiduesPyMOLMetric   name="pymol_tree"   residue_selector="tree"   custom_type="glycans"/>
+        	<SelectedResiduesPyMOLMetric   name="pymol_branch" residue_selector="root"   custom_type="branch"/>
+        	<SelectedResiduesMetric        name="pdb_glycans"  residue_selector="tree"   rosetta_numbering="0" custom_type="glycans"/>
+        	<SelectedResiduesMetric        name="pdb_branch"   residue_selector="root"   rosetta_numbering="0" custom_type="branch"/>
+
+    	</SIMPLE_METRICS>
+	<MOVERS>
+        	<SetupForSymmetry name="setup_symm" definition="%%symmdef%%"/>
+        	<LoadDensityMap name="loaddens" mapfile="%%map%%"/>
+        	<SetupForDensityScoring name="setupdens"/>
+		<RunSimpleMetrics name="native_metrics" metrics="fit_native" prefix="native_" />
+		<RunSimpleMetrics name="selections" metrics="layers,pymol_tree,pymol_branch,pdb_glycans,pdb_branch" />
+		<RunSimpleMetrics name="counts"     metrics="n_tree,n_layer01,n_fits6,n_fits8"/>
+		<RunSimpleMetrics name="timings"    metrics="timing" /> 
+
+	</MOVERS>
+	<APPLY_TO_POSE>
+	</APPLY_TO_POSE>
+	<PROTOCOLS>
+		<Add mover_name="loaddens"/>
+		<Add mover_name="setupdens" />
+		<Add mover_name="selections"/>
+		<Add mover_name="native_metrics" />
+		<Add mover_name="counts"/>
+		<Add mover_name="timings"/>
+	</PROTOCOLS>
+</ROSETTASCRIPTS>
