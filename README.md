@@ -84,10 +84,10 @@ The Jupyter Notebooks below provide an introduction to the fundmamental principl
 - [16.4 Examples Using the `dask` Module](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.04-dask.delayed-Via-Slurm.ipynb)
 - [16.5 Part I: Parallelized Global Ligand Docking with `pyrosetta.distributed`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.05-Ligand-Docking-dask.ipynb)
 
-### [Appendix A. Appendix A: Command Reference](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/A.00-Appendix-A.ipynb)
+### [Appendix A. Command Reference](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/A.00-Appendix-A.ipynb)
 
-### [Appendix B. Appendix B: Residue Parameter Files](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/B.00-Appendix-B.ipynb)
+### [Appendix B. Residue Parameter Files](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/B.00-Appendix-B.ipynb)
 
-### [Appendix C. Appendix C: Cleaning pdb files](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/C.00-Appendix-C.ipynb)
+### [Appendix C. Cleaning pdb files](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/C.00-Appendix-C.ipynb)
 
-### [Appendix D. Appendix D: Links to Online Help](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/D.00-Appendix-D.ipynb)
+### [Appendix D. Links to Online Help](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/D.00-Appendix-D.ipynb)
