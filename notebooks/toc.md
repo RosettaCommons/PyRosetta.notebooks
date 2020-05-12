@@ -63,6 +63,8 @@
     - [Official Notebook Documentation](http://ipython.org/ipython-doc/stable/interactive/notebook.html)
     - [Matplotlib](http://matplotlib.org/index.html)
 
+### [1.5 Frequently Asked Questions/Troubleshooting Tips](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.05-FAQ.ipynb)
+
 
 ## [Chapter 2.0 Introduction to PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb)
 * Links

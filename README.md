@@ -6,7 +6,7 @@
 
 PyRosetta is an interactive Python-based interface to the powerful Rosetta molecular modeling suite. It enables users to design their own custom molecular modeling algorithms using Rosetta sampling methods and energy functions.
 
-The Jupyter Notebooks below provide an introduction to the fundmamental principles and tools for using PyRosetta. The Notebooks can be viewed directly in nbviewer. To execute any of the notebooks either locally or on Google Colarboratory, please see Chapter 1 for setup instructions.
+The Jupyter Notebooks below provide an introduction to the fundmamental principles and tools for using PyRosetta. The Notebooks can be viewed directly in nbviewer. To execute any of the notebooks either locally or on Google Colaboratory, please see Chapter 1 for setup instructions.
 
 
 ### [Table of Contents](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/toc.ipynb?flush=true)
@@ -17,6 +17,7 @@ The Jupyter Notebooks below provide an introduction to the fundmamental principl
 - [1.2 PyRosetta Google Drive Usage Example](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.02-PyRosetta-Google-Drive-Usage-Example.ipynb)
 - [1.3 How to Get PyRosetta on Your Personal Computer](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.03-How-to-Get-Local-PyRosetta.ipynb)
 - [1.4 Jupyter Notebooks, Python, and Google Colaboratory](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.04-Notebooks-Python-Colab.ipynb)
+- [1.5 Frequently Asked Questions/Troubleshooting Tips](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.05-FAQ.ipynb)
 
 ### [Chapter 2.0 Introduction to PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb)
 - [2.1 Pose Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.01-Pose-Basics.ipynb)
