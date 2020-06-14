@@ -1,4 +1,4 @@
-# [PyRosetta](https://RosettaCommons.github.io/PyRosetta)
+# [PyRosetta](https://RosettaCommons.github.io/PyRosetta.notebooks)
 
 
 ## [Chapter 1.0 How to Get Started](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.00-How-to-Get-Started.ipynb)

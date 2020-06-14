@@ -1,4 +1,4 @@
-# [PyRosetta](https://RosettaCommons.github.io/PyRosetta)
+# [PyRosetta](https://RosettaCommons.github.io/PyRosetta.notebooks)
 
 ## Keyword Index
 
