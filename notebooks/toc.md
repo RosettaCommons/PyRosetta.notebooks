@@ -8,6 +8,9 @@
     - [PyRosetta package](http://www.pyrosetta.org/dow)
 
 ### [1.1 PyRosetta Google Drive Setup](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.01-PyRosetta-Google-Drive-Setup.ipynb)
+        - [Install third-party external packages](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.01-PyRosetta-Google-Drive-Setup.ipynb#Install-third-party-external-packages)
+            - [Pip:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.01-PyRosetta-Google-Drive-Setup.ipynb#Pip:)
+            - [Conda:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.01-PyRosetta-Google-Drive-Setup.ipynb#Conda:)
 
 ### [1.2 PyRosetta Google Drive Usage Example](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.02-PyRosetta-Google-Drive-Usage-Example.ipynb)
 
@@ -16,6 +19,12 @@
     - [Python 3.6 (and preferably IPython for tab-completion)](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.03-How-to-Get-Local-PyRosetta.ipynb#Python-3.6-(and-preferably-IPython-for-tab-completion))
     - [PyMOL](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.03-How-to-Get-Local-PyRosetta.ipynb#PyMOL)
     - [PyRosetta-3.6.Release](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.03-How-to-Get-Local-PyRosetta.ipynb#PyRosetta-3.6.Release)
+
+### [1.4 Jupyter Notebooks, Python, and Google Colaboratory](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.04-Notebooks-Python-Colab.ipynb)
+* Links
+    - [tutorial](https://nbviewer.jupyter.org/github/jckantor/CBE20255/blob/master/notebooks/00.01-Getting-Started-with-Jupyter-Notebooks-and-Python.ipynb)
+
+### [1.5 Frequently Asked Questions/Troubleshooting Tips](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.05-FAQ.ipynb)
 
 
 ## [Chapter 2.0 Introduction to PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb)
@@ -180,6 +189,21 @@
 - [Design Strategy](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.07-Introduction-to-DeNovo-protein-design.ipynb#Design-Strategy)
 - [*De Novo* Protein Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.07-Introduction-to-DeNovo-protein-design.ipynb#*De-Novo*-Protein-Design)
 - [Analysis:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.07-Introduction-to-DeNovo-protein-design.ipynb#Analysis:)
+
+### [6.8 **Point Mutation Scan**](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.08-Point-Mutation-Scan.ipynb)
+- [**Section Contributors:**](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.08-Point-Mutation-Scan.ipynb#**Section-Contributors:**)
+    - [Set up notebook](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.08-Point-Mutation-Scan.ipynb#Set-up-notebook)
+    - [Loading structures](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.08-Point-Mutation-Scan.ipynb#Loading-structures)
+- [**Step 1. Prepare the starting structure with FastRelax()**](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.08-Point-Mutation-Scan.ipynb#**Step-1.-Prepare-the-starting-structure-with-FastRelax()**)
+    - [Writing Function in Python](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.08-Point-Mutation-Scan.ipynb#Writing-Function-in-Python)
+- [**Step 2. Write the function for mutation**](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.08-Point-Mutation-Scan.ipynb#**Step-2.-Write-the-function-for-mutation**)
+    - [**Step 3. unbind()**](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.08-Point-Mutation-Scan.ipynb#**Step-3.-unbind()**)
+- [**Step 4. wildtype()**](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.08-Point-Mutation-Scan.ipynb#**Step-4.-wildtype()**)
+- [**Step 5. Integrate functions for mutate and output**](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.08-Point-Mutation-Scan.ipynb#**Step-5.-Integrate-functions-for-mutate-and-output**)
+- [**Step 6. Loop through interface positions**](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.08-Point-Mutation-Scan.ipynb#**Step-6.-Loop-through-interface-positions**)
+- [**Analysis of binding data**](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.08-Point-Mutation-Scan.ipynb#**Analysis-of-binding-data**)
+* Links
+    - [ pareto-optimal method by Nivon, Morreti, and Baker ](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059004)
 
 
 ## [Chapter 7.0 Docking](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.00-Protein-Docking.ipynb)
