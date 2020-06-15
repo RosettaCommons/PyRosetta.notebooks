@@ -49,6 +49,8 @@ _Step 3:_ When you are done making changes, run make-student-nb.bash to automati
 - [1.1 PyRosetta Google Drive Setup](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.01-PyRosetta-Google-Drive-Setup.ipynb)
 - [1.2 PyRosetta Google Drive Usage Example](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.02-PyRosetta-Google-Drive-Usage-Example.ipynb)
 - [1.3 How to Get PyRosetta on Your Personal Computer](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.03-How-to-Get-Local-PyRosetta.ipynb)
+- [1.4 Jupyter Notebooks, Python, and Google Colaboratory](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.04-Notebooks-Python-Colab.ipynb)
+- [1.5 Frequently Asked Questions/Troubleshooting Tips](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.05-FAQ.ipynb)
 
 ### [Chapter 2.0 Introduction to PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb)
 - [2.1 Pose Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.01-Pose-Basics.ipynb)
@@ -81,6 +83,7 @@ _Step 3:_ When you are done making changes, run make-student-nb.bash to automati
 - [6.5 HBNet Before Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.05-HBNet-Before-Design.ipynb)
 - [6.6 *De Novo* Parametric Backbone Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.06-Introduction-to-Parametric-backbone-design.ipynb)
 - [6.7 *De Novo* Protein Design with PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.07-Introduction-to-DeNovo-protein-design.ipynb)
+- [6.8 **Point Mutation Scan**](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.08-Point-Mutation-Scan.ipynb)
 
 ### [Chapter 7.0 Docking](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.00-Protein-Docking.ipynb)
 - [7.1 Fast Fourier Transform Based Docking via ZDOCK](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.01-Fast-Fourier-Transform-Based-Docking-via-ZDOCK.ipynb)
