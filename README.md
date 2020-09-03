@@ -80,7 +80,7 @@ Many of the workshops have been adapted from the book *The PyRosetta Interactive
 - [15.1 Setting up a membrane protein in the bilayer](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/15.01-Accounting-for-the-lipid-bilayer.ipynb)
 - [15.2 Predicting the ∆∆G of single point mutations](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/15.02-Membrane-Protein-ddG-of-mutation.ipynb)
 
-### [Chapter 16.0 Running Rosetta in Parellel](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.00-Running-PyRosetta-in-Parellel.ipynb)
+### [Chapter 16.0 Running Rosetta in Parallel](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.00-Running-PyRosetta-in-Parallel.ipynb)
 - [16.1 Distributed analysis example: exhaustive ddG PSSM](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.01-PyData-ddG-pssm.ipynb)
 - [16.2 Distributed computation example: miniprotein design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.02-PyData-miniprotein-design.ipynb)
 - [16.3 Example of Using PyRosetta with GNU Parallel](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.03-GNU-Parallel-Via-Slurm.ipynb)
