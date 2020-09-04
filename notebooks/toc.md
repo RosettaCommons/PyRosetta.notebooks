@@ -395,7 +395,7 @@
         - [TODO List](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/15.02-Membrane-Protein-ddG-of-mutation.ipynb#TODO-List)
 
 
-## [Chapter 16.0 Running Rosetta in Parellel](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.00-Running-PyRosetta-in-Parellel.ipynb)
+## [Chapter 16.0 Running Rosetta in Parallel](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.00-Running-PyRosetta-in-Parallel.ipynb)
 * Links
     - [Integration of the Rosetta Suite with the Python Software Stack via reproducible packaging and core programming interfaces for distributed simulation](https://doi.org/10.1002/pro.3721)
 
@@ -424,13 +424,13 @@
 ### [16.5 Part I: Parallelized Global Ligand Docking with `pyrosetta.distributed`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.05-Ligand-Docking-dask.ipynb)
 
 
-## [Appendix A. Appendix A: Command Reference](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/A.00-Appendix-A.ipynb)
+## [Appendix A. Command Reference](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/A.00-Appendix-A.ipynb)
 
 
-## [Appendix B. Appendix B: Residue Parameter Files](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/B.00-Appendix-B.ipynb)
+## [Appendix B. Residue Parameter Files](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/B.00-Appendix-B.ipynb)
 
 
-## [Appendix C. Appendix C: Cleaning pdb files](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/C.00-Appendix-C.ipynb)
+## [Appendix C. Cleaning pdb files](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/C.00-Appendix-C.ipynb)
 
 
-## [Appendix D. Appendix D: Links to Online Help](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/D.00-Appendix-D.ipynb)
+## [Appendix D. Links to Online Help](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/D.00-Appendix-D.ipynb)
