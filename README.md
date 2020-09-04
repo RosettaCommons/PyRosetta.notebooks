@@ -6,7 +6,9 @@
 
 PyRosetta is an interactive Python-based interface to the powerful Rosetta molecular modeling suite. It enables users to design their own custom molecular modeling algorithms using Rosetta sampling methods and energy functions.
 
-The Jupyter Notebooks below provide an introduction to the fundmamental principles and tools for using PyRosetta. The Notebooks can be viewed directly in nbviewer. To execute any of the notebooks either locally or on Google Colaboratory, please see Chapter 1 for setup instructions.
+The Jupyter Notebooks below provide an introduction to the fundmamental principles and tools for using PyRosetta. The Notebooks can be viewed directly in nbviewer. To execute any of the notebooks either locally or in Google Colaboratory, please see Chapter 1 for setup instructions. 
+
+Many of the workshops have been adapted from the book *The PyRosetta Interactive Platform for Protein Structure Prediction and Design: PyRosetta4 Update* by Jeffrey Gray, Sidhartha Chaudhury, Sergey Lyskov, and Jason Labonte ([Amazon](https://www.amazon.com/PyRosetta-Interactive-Platform-Structure-Prediction-ebook/dp/B01N21DRY8)). Other Rosetta developers have also lent their various areas of expertise to help create workshops for this series. Additional contributions to our open-source [repository](https://github.com/RosettaCommons/PyRosetta.notebooks) are always welcomed. To learn more about this project, check out our [preprint](https://www.preprints.org/manuscript/202002.0097/v1).
 
 
 ### [Table of Contents](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/toc.ipynb?flush=true)
@@ -50,6 +52,7 @@ The Jupyter Notebooks below provide an introduction to the fundmamental principl
 - [6.5 HBNet Before Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.05-HBNet-Before-Design.ipynb)
 - [6.6 *De Novo* Parametric Backbone Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.06-Introduction-to-Parametric-backbone-design.ipynb)
 - [6.7 *De Novo* Protein Design with PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.07-Introduction-to-DeNovo-protein-design.ipynb)
+- [6.8 **Point Mutation Scan**](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.08-Point-Mutation-Scan.ipynb)
 
 ### [Chapter 7.0 Docking](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.00-Protein-Docking.ipynb)
 - [7.1 Fast Fourier Transform Based Docking via ZDOCK](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.01-Fast-Fourier-Transform-Based-Docking-via-ZDOCK.ipynb)
@@ -77,7 +80,7 @@ The Jupyter Notebooks below provide an introduction to the fundmamental principl
 - [15.1 Setting up a membrane protein in the bilayer](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/15.01-Accounting-for-the-lipid-bilayer.ipynb)
 - [15.2 Predicting the ∆∆G of single point mutations](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/15.02-Membrane-Protein-ddG-of-mutation.ipynb)
 
-### [Chapter 16.0 Running Rosetta in Parellel](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.00-Running-PyRosetta-in-Parellel.ipynb)
+### [Chapter 16.0 Running Rosetta in Parallel](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.00-Running-PyRosetta-in-Parallel.ipynb)
 - [16.1 Distributed analysis example: exhaustive ddG PSSM](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.01-PyData-ddG-pssm.ipynb)
 - [16.2 Distributed computation example: miniprotein design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.02-PyData-miniprotein-design.ipynb)
 - [16.3 Example of Using PyRosetta with GNU Parallel](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.03-GNU-Parallel-Via-Slurm.ipynb)
