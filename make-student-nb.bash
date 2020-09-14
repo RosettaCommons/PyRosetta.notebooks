@@ -5,6 +5,7 @@
 # Make sure you have already installed nbgrader
 # (https://nbgrader.readthedocs.io/en/stable/user_guide/installation.html)
 # and nbpages (https://pypi.org/project/nbpages/).
+# i.e. `pip install nbgrader nbpages notedown python-Levenshtein`
 
 # Update TOC and indexes
 nbpages
@@ -30,7 +31,7 @@ cd student-notebooks
 for i in ./source/*
 do
    nbgrader db assignment add ${i##*/}
-   nbgrader assign ${i##*/}
+   nbgrader generate_assignment ${i##*/}
 done
 
 
