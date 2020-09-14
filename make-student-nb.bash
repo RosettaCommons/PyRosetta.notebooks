@@ -30,8 +30,13 @@ done
 cd student-notebooks
 for i in ./source/*
 do
-   nbgrader db assignment add ${i##*/}
-   nbgrader generate_assignment ${i##*/}
+   s=${i##*/}
+   h='header.ipynb'
+   if [ ${s} != ${h} ]
+   then
+      nbgrader db assignment add ${s}
+      nbgrader generate_assignment ${s}
+   fi
 done
 
 
