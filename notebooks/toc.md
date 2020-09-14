@@ -423,7 +423,7 @@
 
 ### [16.5 Part I: Parallelized Global Ligand Docking with `pyrosetta.distributed`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.05-Ligand-Docking-dask.ipynb)
 
-### [16.6 PyRosettaCluster](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.06-PyRosettaCluster-Simple-protocol.ipynb)
+### [16.6 PyRosettaCluster Tutorial 1A. Simple protocol](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.06-PyRosettaCluster-Simple-protocol.ipynb)
     - [1. Import packages](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.06-PyRosettaCluster-Simple-protocol.ipynb#1.-Import-packages)
     - [2. Initialize a compute cluster using `dask`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.06-PyRosettaCluster-Simple-protocol.ipynb#2.-Initialize-a-compute-cluster-using-`dask`)
     - [3. Define or import the user-provided PyRosetta protocol(s):](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.06-PyRosettaCluster-Simple-protocol.ipynb#3.-Define-or-import-the-user-provided-PyRosetta-protocol(s):)
@@ -441,7 +441,7 @@
 * Links
     - [documentation](https://www.rosettacommons.org/docs/latest/rosetta_basics/options/run-options)
 
-### [16.7 PyRosettaCluster](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.07-PyRosettaCluster-Reproduce-simple-protocol.ipynb)
+### [16.7 PyRosettaCluster Tutorial 1B. Reproduce simple protocol](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.07-PyRosettaCluster-Reproduce-simple-protocol.ipynb)
     - [1. Import packages](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.07-PyRosettaCluster-Reproduce-simple-protocol.ipynb#1.-Import-packages)
     - [2. Initialize a compute cluster using `dask`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.07-PyRosettaCluster-Reproduce-simple-protocol.ipynb#2.-Initialize-a-compute-cluster-using-`dask`)
     - [3. Re-define or import the original user-provided PyRosetta protocol:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.07-PyRosettaCluster-Reproduce-simple-protocol.ipynb#3.-Re-define-or-import-the-original-user-provided-PyRosetta-protocol:)
@@ -454,7 +454,7 @@
         - [Assert that the C$_{\alpha}$–C$_{\alpha}$ root-mean-square deviation (RMSD) is `0.0` Å:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.07-PyRosettaCluster-Reproduce-simple-protocol.ipynb#Assert-that-the-C$_{\alpha}$–C$_{\alpha}$-root-mean-square-deviation-(RMSD)-is-`0.0`-Å:)
     - [Congrats!](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.07-PyRosettaCluster-Reproduce-simple-protocol.ipynb#Congrats!)
 
-### [16.8 PyRosettaCluster](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.08-PyRosettaCluster-Multiple-protocols.ipynb)
+### [16.8 PyRosettaCluster Tutorial 2. Multiple protocols](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.08-PyRosettaCluster-Multiple-protocols.ipynb)
     - [1. Import packages](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.08-PyRosettaCluster-Multiple-protocols.ipynb#1.-Import-packages)
     - [2. Initialize a compute cluster using `dask`:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.08-PyRosettaCluster-Multiple-protocols.ipynb#2.-Initialize-a-compute-cluster-using-`dask`:)
     - [3. Define the user-provided PyRosetta protocols:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.08-PyRosettaCluster-Multiple-protocols.ipynb#3.-Define-the-user-provided-PyRosetta-protocols:)
@@ -463,7 +463,7 @@
     - [6. Visualize the resultant decoy:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.08-PyRosettaCluster-Multiple-protocols.ipynb#6.-Visualize-the-resultant-decoy:)
     - [Congrats!](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.08-PyRosettaCluster-Multiple-protocols.ipynb#Congrats!)
 
-### [16.9 PyRosettaCluster](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.09-PyRosettaCluster-Multiple-decoys.ipynb)
+### [16.9 PyRosettaCluster Tutorial 3. Multiple decoys](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.09-PyRosettaCluster-Multiple-decoys.ipynb)
     - [1. Import packages](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.09-PyRosettaCluster-Multiple-decoys.ipynb#1.-Import-packages)
     - [2. Initialize a compute cluster using `dask`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.09-PyRosettaCluster-Multiple-decoys.ipynb#2.-Initialize-a-compute-cluster-using-`dask`)
     - [3. Define the user-provided PyRosetta protocols that returns multiple `Pose` or `PackedPose` objects:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.09-PyRosettaCluster-Multiple-decoys.ipynb#3.-Define-the-user-provided-PyRosetta-protocols-that-returns-multiple-`Pose`-or-`PackedPose`-objects:)
@@ -472,7 +472,7 @@
     - [6. Visualize the resulting decoys:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.09-PyRosettaCluster-Multiple-decoys.ipynb#6.-Visualize-the-resulting-decoys:)
     - [Congrats!](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.09-PyRosettaCluster-Multiple-decoys.ipynb#Congrats!)
 
-### [16.10 PyRosettaCluster](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.10-PyRosettaCluster-Ligand-params.ipynb)
+### [16.10 PyRosettaCluster Tutorial 4. Ligand params](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.10-PyRosettaCluster-Ligand-params.ipynb)
     - [1. Import packages](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.10-PyRosettaCluster-Ligand-params.ipynb#1.-Import-packages)
     - [2. Initialize a compute cluster using `dask`:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.10-PyRosettaCluster-Ligand-params.ipynb#2.-Initialize-a-compute-cluster-using-`dask`:)
     - [3. Define ligand `.params` file(s) and initialize PyRosetta with a constant seed:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.10-PyRosettaCluster-Ligand-params.ipynb#3.-Define-ligand-`.params`-file(s)-and-initialize-PyRosetta-with-a-constant-seed:)
