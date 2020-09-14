@@ -21,7 +21,7 @@ dependencies:
   - pandas=1.0.3
   - pip=20.0.2
   - conda-forge::py3dmol=0.8.0
-  - pyrosetta=2020.34
+  - pyrosetta=2020.38
   - python=3.7.6
   - python-blosc=1.9.1
   - python-graphviz=0.13
