@@ -86,6 +86,11 @@ Many of the workshops have been adapted from the book *The PyRosetta Interactive
 - [16.3 Example of Using PyRosetta with GNU Parallel](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.03-GNU-Parallel-Via-Slurm.ipynb)
 - [16.4 Examples Using the `dask` Module](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.04-dask.delayed-Via-Slurm.ipynb)
 - [16.5 Part I: Parallelized Global Ligand Docking with `pyrosetta.distributed`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.05-Ligand-Docking-dask.ipynb)
+- [16.6 PyRosettaCluster](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.06-PyRosettaCluster-Simple-protocol.ipynb)
+- [16.7 PyRosettaCluster](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.07-PyRosettaCluster-Reproduce-simple-protocol.ipynb)
+- [16.8 PyRosettaCluster](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.08-PyRosettaCluster-Multiple-protocols.ipynb)
+- [16.9 PyRosettaCluster](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.09-PyRosettaCluster-Multiple-decoys.ipynb)
+- [16.10 PyRosettaCluster](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.10-PyRosettaCluster-Ligand-params.ipynb)
 
 ### [Appendix A. Command Reference](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/A.00-Appendix-A.ipynb)
 
