@@ -27,12 +27,11 @@ done
 
 
 # Create assignments in release folder
-cd student-notebooks
+pushd student-notebooks
 for i in ./source/*
 do
    s=${i##*/}
-   h='header.ipynb'
-   if [ ${s} != ${h} ]
+   if [ ${s} != 'header.ipynb' ]
    then
       nbgrader db assignment add ${s}
       nbgrader generate_assignment ${s}
@@ -49,9 +48,11 @@ for i in ./release/*
 do
    s=${i##*/}
    fname=${s%.ipynb}
-   #echo $fname
-   chmod 777 $i/*
-   cp $i/* ./$fname.ipynb
+   if [ ${fname} != 'ps1' ]
+   then
+      chmod 777 $i/*
+      cp $i/* ./$fname.ipynb
+   fi
 done
 rm -r release
 
@@ -70,3 +71,5 @@ sed 's/\/notebooks\//\/student-notebooks\//g' index.ipynb > _index.ipynb
 # Remove old toc file and index file
 rm toc.ipynb
 rm index.ipynb
+
+popd
