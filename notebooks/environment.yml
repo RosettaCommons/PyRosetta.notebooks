@@ -2,27 +2,33 @@ name: PyRosetta.notebooks
 channels:
   - defaults
 dependencies:
-  - python=3.7.6
-  - python-blosc=1.9.1
+  - attrs=19.3.0
+  - billiard=3.6.3.0
   - biopython=1.76
-  - cloudpickle=1.4.0
-  - dask=2.11.0
+  - cloudpickle=1.5.0
+  - dask=2.16.0
   - dask-jobqueue=0.7.0
-  - distributed=2.11.0
-  - ipython=7.12.0
+  - distributed=2.16.0
+  - gitpython=3.1.1
   - ipykernel=5.1.4
-  - jupyter=1.0.0
   - ipyparallel=6.2.4
-  - nb_conda_kernels=2.2.2
+  - ipython=7.12.0
+  - jupyter=1.0.0
   - jupyter_contrib_nbextensions=0.5.1
-  - virtualenv=16.7.5
   - matplotlib=3.1.1
+  - nb_conda_kernels=2.2.2
   - numpy=1.18.1
   - pandas=1.0.3
   - pip=20.0.2
-  - xlrd=1.2.0
   - conda-forge::py3dmol=0.8.0
-  - pyrosetta=2020.02
+  - pyrosetta=2020.38
+  - python=3.7.6
+  - python-blosc=1.9.1
   - python-graphviz=0.13
   - scipy=1.4.1
   - seaborn=0.9.0
+  - virtualenv=16.7.5
+  - xlrd=1.2.0
+  - pip:
+    - dask-labextension==2.0.1
+    - jupyter-server-proxy==1.3.0
