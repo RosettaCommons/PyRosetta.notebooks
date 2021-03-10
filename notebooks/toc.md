@@ -231,6 +231,39 @@
     - [Now that we have performed `GALigandDock`, we can plot the ligand binding energy landscape:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/08.02-Ligand-Docking-pyrosetta.distributed.ipynb#Now-that-we-have-performed-`GALigandDock`,-we-can-plot-the-ligand-binding-energy-landscape:)
 
 
+## [Chapter 9.0 Loop Modeling](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb)
+- [Lever-Arm Effect](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Lever-Arm-Effect)
+- [Fold Tree](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Fold-Tree)
+    - [Fold Tree (from scratch)](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Fold-Tree-(from-scratch))
+    - [Fold Tree (using functions)](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Fold-Tree-(using-functions))
+        - [Single loop](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Single-loop)
+        - [Multiple Loops](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Multiple-Loops)
+    - [Exercises](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Exercises)
+- [Cyclic Coordination Descent (CCD) Loop Closure](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Cyclic-Coordination-Descent-(CCD)-Loop-Closure)
+- [Loop Building](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Loop-Building)
+- [High-Resolution Loop Protocol](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#High-Resolution-Loop-Protocol)
+- [Kinematic Closure (KIC) Protocol](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Kinematic-Closure-(KIC)-Protocol)
+- [Simultaneous Loop Modeling and Docking](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Simultaneous-Loop-Modeling-and-Docking)
+* Links
+    - [Rosetta Commons docs page](https://www.rosettacommons.org/docs/latest/Home)
+
+### [9.1 Using Rosetta Gen KIC](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.01-Using-Gen-KIC.ipynb)
+- [Step 1: Preparing to close loop](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.01-Using-Gen-KIC.ipynb#Step-1:-Preparing-to-close-loop)
+    - [Slice Pose](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.01-Using-Gen-KIC.ipynb#Slice-Pose)
+    - [Connect two objects with arbitrary residues](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.01-Using-Gen-KIC.ipynb#Connect-two-objects-with-arbitrary-residues)
+- [Step 2: Initial GeneralizedKIC setup](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.01-Using-Gen-KIC.ipynb#Step-2:-Initial-GeneralizedKIC-setup)
+- [Step 3 Set GenKic parameters](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.01-Using-Gen-KIC.ipynb#Step-3-Set-GenKic-parameters)
+- [Step 3: Setting GeneralizedKIC perturbers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.01-Using-Gen-KIC.ipynb#Step-3:-Setting-GeneralizedKIC-perturbers)
+- [Step 4: Apply to pose](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.01-Using-Gen-KIC.ipynb#Step-4:-Apply-to-pose)
+- [Step 5: Filtering solutions to discard bad geometry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.01-Using-Gen-KIC.ipynb#Step-5:-Filtering-solutions-to-discard-bad-geometry)
+    - [Loop bump check](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.01-Using-Gen-KIC.ipynb#Loop-bump-check)
+    - [Set rama prepro](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.01-Using-Gen-KIC.ipynb#Set-rama-prepro)
+- [Step 6 Apply Perturbers and Filters and run GK](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.01-Using-Gen-KIC.ipynb#Step-6-Apply-Perturbers-and-Filters-and-run-GK)
+* Links
+    - [Accurate de novo design of hyperstable constrained peptides](https://www.ncbi.nlm.nih.gov/pubmed/27626386)
+    - [Comprehensive computational design of ordered peptide macrocycles](https://www.ncbi.nlm.nih.gov/pubmed/29242347)
+
+
 ## [Chapter 10.0 Working With Symmetry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/10.00-Working-With-Symmetry.ipynb)
 - [Creating a SymDef file](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/10.00-Working-With-Symmetry.ipynb#Creating-a-SymDef-file)
 - [Setup a Symmetrized Pose](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/10.00-Working-With-Symmetry.ipynb#Setup-a-Symmetrized-Pose)

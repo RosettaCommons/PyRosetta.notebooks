@@ -44,6 +44,8 @@
     - [RosettaCarbohydrates: Modeling and Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/13.02-Glycan-Modeling-and-Design.ipynb#RosettaCarbohydrates:-Modeling-and-Design)
 * cartesian
     - [Packing and Relax](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.02-Packing-design-and-regional-relax.ipynb#Packing-and-Relax)
+* CCD
+    - [Loop Modeling](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Loop-Modeling)
 * CDR
     - [Working With Antibodies](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/12.00-Working-With-Antibodies.ipynb#Working-With-Antibodies)
 * CDRResidueSelector
@@ -73,6 +75,8 @@
     - [Protein Design with a Resfile and FastRelax](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.03-Design-with-a-resfile-and-relax.ipynb#Protein-Design-with-a-Resfile-and-FastRelax)
 * crystal
     - [Working With Density](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/11.00-Working-With-Density.ipynb#Working-With-Density)
+* cut-point variant
+    - [Loop Modeling](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Loop-Modeling)
 * density
     - [Working With Density](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/11.00-Working-With-Density.ipynb#Working-With-Density)
 * design
@@ -111,8 +115,14 @@
     - [Fast Fourier Transform Based Docking via ZDOCK](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.01-Fast-Fourier-Transform-Based-Docking-via-ZDOCK.ipynb#Fast-Fourier-Transform-Based-Docking-via-ZDOCK)
 * fold_tree()
     - [Docking Moves in Rosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.02-Docking-Moves-in-Rosetta.ipynb#Docking-Moves-in-Rosetta)
+* fold_tree_from_loops
+    - [Loop Modeling](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Loop-Modeling)
+* FoldTree
+    - [Loop Modeling](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Loop-Modeling)
 * furanose
     - [RosettaCarbohydrates](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/13.00-RosettaCarbohydrates-Working-with-Glycans.ipynb#RosettaCarbohydrates)
+* GeneralizedKIC
+    - [Using Rosetta Gen KIC](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.01-Using-Gen-KIC.ipynb#Using-Rosetta-Gen-KIC)
 * get_hbonds()
     - [Score Function Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.01-Score-Function-Basics.ipynb#Score-Function-Basics)
 * get_residues_from_subset
@@ -149,10 +159,16 @@
     - [High-Resolution Movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/05.01-High-Res-Movers.ipynb#High-Resolution-Movers)
 * ketose
     - [RosettaCarbohydrates](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/13.00-RosettaCarbohydrates-Working-with-Glycans.ipynb#RosettaCarbohydrates)
+* KIC
+    - [Loop Modeling](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Loop-Modeling)
 * label_energy()
     - [Energies and the PyMOL Mover](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.03-Energies-and-the-PyMOLMover.ipynb#Energies-and-the-PyMOL-Mover)
 * LoadDensityMapMover
     - [Working With Density](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/11.00-Working-With-Density.ipynb#Working-With-Density)
+* loop modeling
+    - [Using Rosetta Gen KIC](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.01-Using-Gen-KIC.ipynb#Using-Rosetta-Gen-KIC)
+* loops
+    - [Loop Modeling](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Loop-Modeling)
 * MakeBundle
     - [*De Novo* Parametric Backbone Design](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.06-Introduction-to-Parametric-backbone-design.ipynb#*De-Novo*-Parametric-Backbone-Design)
 * mannose
@@ -171,6 +187,7 @@
     - [High-Resolution Movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/05.01-High-Res-Movers.ipynb#High-Resolution-Movers)
 * MoveMap
     - [High-Resolution Movers](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/05.01-High-Res-Movers.ipynb#High-Resolution-Movers)
+    - [Loop Modeling](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb#Loop-Modeling)
 * MoveMapFactory
     - [Packing and Relax](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.02-Packing-design-and-regional-relax.ipynb#Packing-and-Relax)
     - [Protein Design with a Resfile and FastRelax](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/06.03-Design-with-a-resfile-and-relax.ipynb#Protein-Design-with-a-Resfile-and-FastRelax)
