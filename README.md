@@ -15,11 +15,9 @@ Many of the workshops have been adapted from the book *The PyRosetta Interactive
 ### [Keyword Index](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/index.ipynb?flush=true)
 
 ### [Chapter 1.0 How to Get Started](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.00-How-to-Get-Started.ipynb)
-- [1.1 PyRosetta Google Drive Setup](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.01-PyRosetta-Google-Drive-Setup.ipynb)
-- [1.2 PyRosetta Google Drive Usage Example](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.02-PyRosetta-Google-Drive-Usage-Example.ipynb)
-- [1.3 How to Get PyRosetta on Your Personal Computer](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.03-How-to-Get-Local-PyRosetta.ipynb)
-- [1.4 Jupyter Notebooks, Python, and Google Colaboratory](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.04-Notebooks-Python-Colab.ipynb)
-- [1.5 Frequently Asked Questions/Troubleshooting Tips](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.05-FAQ.ipynb)
+- [1.1 How to Get PyRosetta on Your Personal Computer](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.01-How-to-Get-Local-PyRosetta.ipynb)
+- [1.2 Jupyter Notebooks, Python, and Google Colaboratory](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.02-Notebooks-Python-Colab.ipynb)
+- [1.3 Frequently Asked Questions/Troubleshooting Tips](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.03-FAQ.ipynb)
 
 ### [Chapter 2.0 Introduction to PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.00-Introduction-to-PyRosetta.ipynb)
 - [2.1 Pose Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.01-Pose-Basics.ipynb)
@@ -27,6 +25,7 @@ Many of the workshops have been adapted from the book *The PyRosetta Interactive
 - [2.3 Accessing PyRosetta Documentation](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.03-Accessing-PyRosetta-Documentation.ipynb)
 - [2.4 Getting spatial features from a Pose](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.04-Getting-Spatial-Features-from-Pose.ipynb)
 - [2.5 Protein Geometry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.05-Protein-Geometry.ipynb)
+- [2.6 None](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.06-Visualization-and-PyMOL-Mover.PyRosetta-ColabPyMOL-integration.ipynb)
 - [2.6 Visualization with the `PyMOLMover`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.06-Visualization-and-PyMOL-Mover.ipynb)
 - [2.7 RosettaScripts in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-RosettaScripts-in-PyRosetta.ipynb)
 - [2.8 Visualization and `pyrosetta.distributed.viewer`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-Visualization-and-pyrosetta.distributed.viewer.ipynb)
