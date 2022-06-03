@@ -750,8 +750,8 @@ c.IncludeHeaderFooter.header = "source/header.ipynb"
 # c.NotebookClient.ipython_hist_file = ':memory:'
 
 ## The kernel manager class to use.
-#  Default: 'builtins.object'
-# c.NotebookClient.kernel_manager_class = 'builtins.object'
+#  Default: 'jupyter_client.manager.KernelManager'
+# c.NotebookClient.kernel_manager_class = 'jupyter_client.manager.KernelManager'
 
 ## Name of kernel to use to execute the cells. If not set, use the kernel_spec
 #  embedded in the notebook.
@@ -911,7 +911,7 @@ c.IncludeHeaderFooter.header = "source/header.ipynb"
 
 ## The kernel manager class to use.
 #  See also: NotebookClient.kernel_manager_class
-# c.ExecutePreprocessor.kernel_manager_class = 'builtins.object'
+# c.ExecutePreprocessor.kernel_manager_class = 'jupyter_client.manager.KernelManager'
 
 ## 
 #  See also: NotebookClient.kernel_name
@@ -1022,7 +1022,7 @@ c.IncludeHeaderFooter.header = "source/header.ipynb"
 
 ## The kernel manager class to use.
 #  See also: NotebookClient.kernel_manager_class
-# c.Execute.kernel_manager_class = 'builtins.object'
+# c.Execute.kernel_manager_class = 'jupyter_client.manager.KernelManager'
 
 ## 
 #  See also: NotebookClient.kernel_name
