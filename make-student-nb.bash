@@ -7,6 +7,9 @@
 # and nbpages (https://pypi.org/project/nbpages/).
 # i.e. `pip install nbgrader nbpages notedown python-Levenshtein`
 
+# make sure to terminate on any errors...
+set -e
+
 # Update TOC and indexes
 nbpages
 
