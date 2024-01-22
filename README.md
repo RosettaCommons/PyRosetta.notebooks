@@ -61,6 +61,9 @@ Many of the workshops have been adapted from the book *The PyRosetta Interactive
 - [8.1 Global Ligand Docking using `XMLObjects` Using the `ref2015.wts` Scorefunction](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/08.01-Ligand-Docking-XMLObjects.ipynb)
 - [8.2 `GALigandDock` Protocol with `pyrosetta.distributed` Using the `beta_cart.wts` Scorefunction](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/08.02-Ligand-Docking-pyrosetta.distributed.ipynb)
 
+### [Chapter 9.0 Loop Modeling](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb)
+- [9.1 Using Rosetta Gen KIC](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.01-Using-Gen-KIC.ipynb)
+
 ### [Chapter 10.0 Working With Symmetry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/10.00-Working-With-Symmetry.ipynb)
 
 ### [Chapter 11.0 Working With Density](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/11.00-Working-With-Density.ipynb)
