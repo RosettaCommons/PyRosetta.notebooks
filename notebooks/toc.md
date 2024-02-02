@@ -7,9 +7,9 @@
 
 ### [1.1 How to Get PyRosetta on Your Personal Computer](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.01-How-to-Get-Local-PyRosetta.ipynb)
 - [Download the main necessary packages to work locally on your machine](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.01-How-to-Get-Local-PyRosetta.ipynb#Download-the-main-necessary-packages-to-work-locally-on-your-machine)
-    - [Python 3.6 (and preferably IPython for tab-completion)](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.01-How-to-Get-Local-PyRosetta.ipynb#Python-3.6-(and-preferably-IPython-for-tab-completion))
+    - [Python 3.9 (and preferably IPython for tab-completion)](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.01-How-to-Get-Local-PyRosetta.ipynb#Python-3.9-(and-preferably-IPython-for-tab-completion))
     - [PyMOL](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.01-How-to-Get-Local-PyRosetta.ipynb#PyMOL)
-    - [PyRosetta-3.6.Release](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.01-How-to-Get-Local-PyRosetta.ipynb#PyRosetta-3.6.Release)
+    - [PyRosetta-3.9.Release](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.01-How-to-Get-Local-PyRosetta.ipynb#PyRosetta-3.9.Release)
 
 ### [1.2 Jupyter Notebooks, Python, and Google Colaboratory](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/01.02-Notebooks-Python-Colab.ipynb)
 * Links
