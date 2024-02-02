@@ -1177,8 +1177,8 @@ c = get_config()  #noqa
 
 ## A dictionary mapping each Jupyter kernel's name to the function that is used
 #  to sanitize the output from the kernel within InstantiateTests.
-#  Default: {'ir': <function InstantiateTests.<lambda> at 0x7f5959c29f80>, 'python': <function InstantiateTests.<lambda> at 0x7f5959c2a020>, 'python3': <function InstantiateTests.<lambda> at 0x7f5959c2a0c0>}
-# c.InstantiateTests.sanitizers = {'ir': <function InstantiateTests.<lambda> at 0x7f5959c29f80>, 'python': <function InstantiateTests.<lambda> at 0x7f5959c2a020>, 'python3': <function InstantiateTests.<lambda> at 0x7f5959c2a0c0>}
+#  Default: {'ir': <function InstantiateTests.<lambda> at 0x7fed43f65f80>, 'python': <function InstantiateTests.<lambda> at 0x7fed43f66020>, 'python3': <function InstantiateTests.<lambda> at 0x7fed43f660c0>}
+# c.InstantiateTests.sanitizers = {'ir': <function InstantiateTests.<lambda> at 0x7fed43f65f80>, 'python': <function InstantiateTests.<lambda> at 0x7fed43f66020>, 'python3': <function InstantiateTests.<lambda> at 0x7fed43f660c0>}
 
 ## Whether to add a salt to digested answers
 #  Default: True

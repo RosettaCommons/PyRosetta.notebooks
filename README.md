@@ -25,10 +25,10 @@ Many of the workshops have been adapted from the book *The PyRosetta Interactive
 - [2.3 Accessing PyRosetta Documentation](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.03-Accessing-PyRosetta-Documentation.ipynb)
 - [2.4 Getting spatial features from a Pose](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.04-Getting-Spatial-Features-from-Pose.ipynb)
 - [2.5 Protein Geometry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.05-Protein-Geometry.ipynb)
-- [2.6 None](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.06-Visualization-and-PyMOL-Mover.PyRosetta-ColabPyMOL-integration.ipynb)
 - [2.6 Visualization with the `PyMOLMover`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.06-Visualization-and-PyMOL-Mover.ipynb)
-- [2.7 RosettaScripts in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-RosettaScripts-in-PyRosetta.ipynb)
-- [2.8 Visualization and `pyrosetta.distributed.viewer`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-Visualization-and-pyrosetta.distributed.viewer.ipynb)
+- [2.7 Visualization with the `PyMOLMover`, PyRosetta ColabPyMOL integration](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-Visualization-and-PyMOL-Mover.PyRosetta-ColabPyMOL-integration.ipynb)
+- [2.8 RosettaScripts in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-RosettaScripts-in-PyRosetta.ipynb)
+- [2.9 Visualization and `pyrosetta.distributed.viewer`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.09-Visualization-and-pyrosetta.distributed.viewer.ipynb)
 
 ### [Chapter 3.0 Rosetta Energy Score Functions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.00-Rosetta-Energy-Score-Functions.ipynb)
 - [3.1 Score Function Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.01-Score-Function-Basics.ipynb)

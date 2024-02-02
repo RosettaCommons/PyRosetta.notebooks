@@ -254,6 +254,7 @@
     - [Docking Moves in Rosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/07.02-Docking-Moves-in-Rosetta.ipynb#Docking-Moves-in-Rosetta)
 * PyMOLMover
     - [Visualization with the `PyMOLMover`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.06-Visualization-and-PyMOL-Mover.ipynb#Visualization-with-the-`PyMOLMover`)
+    - [Visualization with the `PyMOLMover`, PyRosetta ColabPyMOL integration](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-Visualization-and-PyMOL-Mover.PyRosetta-ColabPyMOL-integration.ipynb#Visualization-with-the-`PyMOLMover`,-PyRosetta-ColabPyMOL-integration)
 * pyranose
     - [RosettaCarbohydrates](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/13.00-RosettaCarbohydrates-Working-with-Glycans.ipynb#RosettaCarbohydrates)
 * RAbD
@@ -324,7 +325,7 @@
 * RosettaAntibodyDesign
     - [Working With Antibodies](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/12.00-Working-With-Antibodies.ipynb#Working-With-Antibodies)
 * RosettaScripts
-    - [RosettaScripts in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-RosettaScripts-in-PyRosetta.ipynb#RosettaScripts-in-PyRosetta)
+    - [RosettaScripts in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-RosettaScripts-in-PyRosetta.ipynb#RosettaScripts-in-PyRosetta)
 * saccharide
     - [RosettaCarbohydrates](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/13.00-RosettaCarbohydrates-Working-with-Glycans.ipynb#RosettaCarbohydrates)
 * score function
@@ -337,11 +338,12 @@
 * scoring move
     - [Basic Folding Algorithm](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/04.01-Basic-Folding-Algorithm.ipynb#Basic-Folding-Algorithm)
 * script
-    - [RosettaScripts in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-RosettaScripts-in-PyRosetta.ipynb#RosettaScripts-in-PyRosetta)
+    - [RosettaScripts in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-RosettaScripts-in-PyRosetta.ipynb#RosettaScripts-in-PyRosetta)
 * send_energy()
     - [Energies and the PyMOL Mover](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.03-Energies-and-the-PyMOLMover.ipynb#Energies-and-the-PyMOL-Mover)
 * send_hbonds()
     - [Visualization with the `PyMOLMover`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.06-Visualization-and-PyMOL-Mover.ipynb#Visualization-with-the-`PyMOLMover`)
+    - [Visualization with the `PyMOLMover`, PyRosetta ColabPyMOL integration](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-Visualization-and-PyMOL-Mover.PyRosetta-ColabPyMOL-integration.ipynb#Visualization-with-the-`PyMOLMover`,-PyRosetta-ColabPyMOL-integration)
     - [Energies and the PyMOL Mover](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.03-Energies-and-the-PyMOLMover.ipynb#Energies-and-the-PyMOL-Mover)
 * sequence()
     - [Pose Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.01-Pose-Basics.ipynb#Pose-Basics)
@@ -398,9 +400,9 @@
 * X-ray
     - [Working With Density](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/11.00-Working-With-Density.ipynb#Working-With-Density)
 * xml
-    - [RosettaScripts in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-RosettaScripts-in-PyRosetta.ipynb#RosettaScripts-in-PyRosetta)
+    - [RosettaScripts in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-RosettaScripts-in-PyRosetta.ipynb#RosettaScripts-in-PyRosetta)
 * XMLObjects
-    - [RosettaScripts in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-RosettaScripts-in-PyRosetta.ipynb#RosettaScripts-in-PyRosetta)
+    - [RosettaScripts in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-RosettaScripts-in-PyRosetta.ipynb#RosettaScripts-in-PyRosetta)
 * xyz()
     - [Protein Geometry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.05-Protein-Geometry.ipynb#Protein-Geometry)
 * ZDOCK

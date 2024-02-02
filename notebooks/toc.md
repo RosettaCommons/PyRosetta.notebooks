@@ -43,8 +43,6 @@
     - [Exercise 5: Calculating psi angle](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.05-Protein-Geometry.ipynb#Exercise-5:-Calculating-psi-angle)
 - [Manipulating Protein Geometry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.05-Protein-Geometry.ipynb#Manipulating-Protein-Geometry)
 
-### [2.6 None](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.06-Visualization-and-PyMOL-Mover.PyRosetta-ColabPyMOL-integration.ipynb)
-
 ### [2.6 Visualization with the `PyMOLMover`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.06-Visualization-and-PyMOL-Mover.ipynb)
 - [Exercise 7: Visualizing changes in backbone angles](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.06-Visualization-and-PyMOL-Mover.ipynb#Exercise-7:-Visualizing-changes-in-backbone-angles)
 - [Additional Exercises ##](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.06-Visualization-and-PyMOL-Mover.ipynb#Additional-Exercises-##)
@@ -57,17 +55,19 @@
     - [Ramachandran plot](http://kinemage.biochem.duke.edu/teaching/anatax/html/anatax.1b.html)
     - [Richardson's Anatomy and Taxonomy of Protein Structure](http://kinemage.biochem.duke.edu/teaching/anatax/)
 
-### [2.7 RosettaScripts in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-RosettaScripts-in-PyRosetta.ipynb)
-- [Running Whole Protocols via RosettaScriptsParser](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-RosettaScripts-in-PyRosetta.ipynb#Running-Whole-Protocols-via-RosettaScriptsParser)
-- [Running via XMLObjects and strings](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-RosettaScripts-in-PyRosetta.ipynb#Running-via-XMLObjects-and-strings)
-- [Constructing Rosetta objects using XMLObjects](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-RosettaScripts-in-PyRosetta.ipynb#Constructing-Rosetta-objects-using-XMLObjects)
-    - [Constructing from single section](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-RosettaScripts-in-PyRosetta.ipynb#Constructing-from-single-section)
+### [2.7 Visualization with the `PyMOLMover`, PyRosetta ColabPyMOL integration](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-Visualization-and-PyMOL-Mover.PyRosetta-ColabPyMOL-integration.ipynb)
 
-### [2.8 Visualization and `pyrosetta.distributed.viewer`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-Visualization-and-pyrosetta.distributed.viewer.ipynb)
-    - [Available `viewer` objects:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-Visualization-and-pyrosetta.distributed.viewer.ipynb#Available-`viewer`-objects:)
-    - [Available `viewer.presets` objects:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-Visualization-and-pyrosetta.distributed.viewer.ipynb#Available-`viewer.presets`-objects:)
-    - [`viewer` objects contain docstrings as user documentation:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-Visualization-and-pyrosetta.distributed.viewer.ipynb#`viewer`-objects-contain-docstrings-as-user-documentation:)
-    - [`viewer.presets` objects contain docstrings as brief descriptions of each preset visualization](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-Visualization-and-pyrosetta.distributed.viewer.ipynb#`viewer.presets`-objects-contain-docstrings-as-brief-descriptions-of-each-preset-visualization)
+### [2.8 RosettaScripts in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-RosettaScripts-in-PyRosetta.ipynb)
+- [Running Whole Protocols via RosettaScriptsParser](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-RosettaScripts-in-PyRosetta.ipynb#Running-Whole-Protocols-via-RosettaScriptsParser)
+- [Running via XMLObjects and strings](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-RosettaScripts-in-PyRosetta.ipynb#Running-via-XMLObjects-and-strings)
+- [Constructing Rosetta objects using XMLObjects](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-RosettaScripts-in-PyRosetta.ipynb#Constructing-Rosetta-objects-using-XMLObjects)
+    - [Constructing from single section](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-RosettaScripts-in-PyRosetta.ipynb#Constructing-from-single-section)
+
+### [2.9 Visualization and `pyrosetta.distributed.viewer`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.09-Visualization-and-pyrosetta.distributed.viewer.ipynb)
+    - [Available `viewer` objects:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.09-Visualization-and-pyrosetta.distributed.viewer.ipynb#Available-`viewer`-objects:)
+    - [Available `viewer.presets` objects:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.09-Visualization-and-pyrosetta.distributed.viewer.ipynb#Available-`viewer.presets`-objects:)
+    - [`viewer` objects contain docstrings as user documentation:](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.09-Visualization-and-pyrosetta.distributed.viewer.ipynb#`viewer`-objects-contain-docstrings-as-user-documentation:)
+    - [`viewer.presets` objects contain docstrings as brief descriptions of each preset visualization](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.09-Visualization-and-pyrosetta.distributed.viewer.ipynb#`viewer.presets`-objects-contain-docstrings-as-brief-descriptions-of-each-preset-visualization)
 
 
 ## [Chapter 3.0 Rosetta Energy Score Functions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.00-Rosetta-Energy-Score-Functions.ipynb)
