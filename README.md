@@ -25,10 +25,10 @@ Many of the workshops have been adapted from the book *The PyRosetta Interactive
 - [2.3 Accessing PyRosetta Documentation](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.03-Accessing-PyRosetta-Documentation.ipynb)
 - [2.4 Getting spatial features from a Pose](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.04-Getting-Spatial-Features-from-Pose.ipynb)
 - [2.5 Protein Geometry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.05-Protein-Geometry.ipynb)
-- [2.6 None](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.06-Visualization-and-PyMOL-Mover.PyRosetta-ColabPyMOL-integration.ipynb)
 - [2.6 Visualization with the `PyMOLMover`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.06-Visualization-and-PyMOL-Mover.ipynb)
-- [2.7 RosettaScripts in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-RosettaScripts-in-PyRosetta.ipynb)
-- [2.8 Visualization and `pyrosetta.distributed.viewer`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-Visualization-and-pyrosetta.distributed.viewer.ipynb)
+- [2.7 Visualization with the `PyMOLMover`, PyRosetta ColabPyMOL integration](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.07-Visualization-and-PyMOL-Mover.PyRosetta-ColabPyMOL-integration.ipynb)
+- [2.8 RosettaScripts in PyRosetta](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.08-RosettaScripts-in-PyRosetta.ipynb)
+- [2.9 Visualization and `pyrosetta.distributed.viewer`](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/02.09-Visualization-and-pyrosetta.distributed.viewer.ipynb)
 
 ### [Chapter 3.0 Rosetta Energy Score Functions](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.00-Rosetta-Energy-Score-Functions.ipynb)
 - [3.1 Score Function Basics](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/03.01-Score-Function-Basics.ipynb)
@@ -60,6 +60,9 @@ Many of the workshops have been adapted from the book *The PyRosetta Interactive
 ### [Chapter 8.0 Ligand Refinement in PyRosetta (a.k.a. High-Resolution Local Docking) Using the `ligand.wts` Scorefunction](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/08.00-Ligand-Docking-PyRosetta.ipynb)
 - [8.1 Global Ligand Docking using `XMLObjects` Using the `ref2015.wts` Scorefunction](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/08.01-Ligand-Docking-XMLObjects.ipynb)
 - [8.2 `GALigandDock` Protocol with `pyrosetta.distributed` Using the `beta_cart.wts` Scorefunction](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/08.02-Ligand-Docking-pyrosetta.distributed.ipynb)
+
+### [Chapter 9.0 Loop Modeling](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.00-Loop-Modeling.ipynb)
+- [9.1 Using Rosetta Gen KIC](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/09.01-Using-Gen-KIC.ipynb)
 
 ### [Chapter 10.0 Working With Symmetry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/10.00-Working-With-Symmetry.ipynb)
 
