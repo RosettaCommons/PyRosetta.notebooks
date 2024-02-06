@@ -17,7 +17,7 @@ nbpages
 # Re-creating student-notebooks folder
 rm -r student-notebooks
 nbgrader quickstart student-notebooks
-
+cp nbgrader_config.py student-notebooks
 
 # Copying notebooks in instructor's folder to the new source folder in student-notebooks folder
 for i in ./notebooks/*.ipynb
