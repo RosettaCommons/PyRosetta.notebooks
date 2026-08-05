@@ -93,6 +93,7 @@ Many of the workshops have been adapted from the book *The PyRosetta Interactive
 - [16.8 PyRosettaCluster Tutorial 2. Multiple protocols](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.08-PyRosettaCluster-Multiple-protocols.ipynb)
 - [16.9 PyRosettaCluster Tutorial 3. Multiple decoys](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.09-PyRosettaCluster-Multiple-decoys.ipynb)
 - [16.10 PyRosettaCluster Tutorial 4. Ligand params](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.10-PyRosettaCluster-Ligand-params.ipynb)
+- [16.11 PyRosettaCluster Tutorial 5. Foundry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.11-PyRosettaCluster-Foundry.ipynb)
 
 ### [Appendix A. Command Reference](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/A.00-Appendix-A.ipynb)
 
