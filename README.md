@@ -6,7 +6,7 @@
 
 PyRosetta is an interactive Python-based interface to the powerful Rosetta molecular modeling suite. It enables users to design their own custom molecular modeling algorithms using Rosetta sampling methods and energy functions.
 
-The Jupyter Notebooks below provide an introduction to the fundmamental principles and tools for using PyRosetta. The Notebooks can be viewed directly in nbviewer. To execute any of the notebooks either locally or in Google Colaboratory, please see Chapter 1 for setup instructions.
+The Jupyter Notebooks below provide an introduction to the fundmamental principles and tools for using PyRosetta. The Notebooks can be viewed directly in nbviewer. To execute any of the notebooks either locally or in Google Colaboratory, please see Chapter 1 for setup instructions. 
 
 Many of the workshops have been adapted from the book *The PyRosetta Interactive Platform for Protein Structure Prediction and Design: PyRosetta4 Update* by Jeffrey Gray, Sidhartha Chaudhury, Sergey Lyskov, and Jason Labonte ([Amazon](https://www.amazon.com/PyRosetta-Interactive-Platform-Structure-Prediction-ebook/dp/B01N21DRY8)). Other Rosetta developers have also lent their various areas of expertise to help create workshops for this series. Additional contributions to our open-source [repository](https://github.com/RosettaCommons/PyRosetta.notebooks) are always welcomed. To learn more about this project, check out our [preprint](https://www.preprints.org/manuscript/202002.0097/v1).
 
@@ -93,6 +93,7 @@ Many of the workshops have been adapted from the book *The PyRosetta Interactive
 - [16.8 PyRosettaCluster Tutorial 2. Multiple protocols](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.08-PyRosettaCluster-Multiple-protocols.ipynb)
 - [16.9 PyRosettaCluster Tutorial 3. Multiple decoys](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.09-PyRosettaCluster-Multiple-decoys.ipynb)
 - [16.10 PyRosettaCluster Tutorial 4. Ligand params](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.10-PyRosettaCluster-Ligand-params.ipynb)
+- [16.11 PyRosettaCluster Tutorial 5. Foundry](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/16.11-PyRosettaCluster-Foundry.ipynb)
 
 ### [Appendix A. Command Reference](http://nbviewer.jupyter.org/github/RosettaCommons/PyRosetta.notebooks/blob/master/notebooks/A.00-Appendix-A.ipynb)
 
